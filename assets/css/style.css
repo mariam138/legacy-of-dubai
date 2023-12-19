@@ -1,3 +1,6 @@
+/* Google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Mukta:wght@300;400;500&display=swap');
+
 /* Asterisk wildcard selector to override default styles */
 * {
     padding: 0;
@@ -39,8 +42,15 @@ footer {
     width: 100vw;
 }
 
+h1, h2, h3 {
+    font-family: Montserrat, sans-serif;
+}
+
 h1 {
     padding: 20px 20px 10px;
+    font-weight: 700;
+    font-size: 200%;
+    text-align: left;
 }
 
 #nav-links {
