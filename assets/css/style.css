@@ -5,6 +5,12 @@
     box-size: border-box;
 }
 
+/* Override default link styling */
+a:link, a:visited {
+    text-decoration: none;
+    color: black;
+}
+
 /*General style rules */
 body {
     min-height: 100vh;
