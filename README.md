@@ -6,7 +6,11 @@
 ### Content
 
 - The Burj Al Arab favicon is by [Icons8](<https://icons8.com/icon/RnOkEfOBUH9P/burj-al-arab>)
+
+### Code
+
 - The template code to insert the favicon is from [W3S Schools](https://www.w3schools.com/html/html_favicon.asp)
 - The code to create a sticky header and push the footer to the bottom is from the [Code Institute Love Running project](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LRFX101+2023_Q2/courseware/e805068059af42af87681032aa64053f/7525117e5cd144daa2a7b0c57843bbee/)
 - The code to create the dropdown toggle for mobile navigation is from the [Code Institute Love Running project](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LRFX101+2023_Q2/courseware/e805068059af42af87681032aa64053f/7525117e5cd144daa2a7b0c57843bbee/)
+- The code to make the toggle on the mobile navbar is from [css-tricks](https://css-tricks.com/inclusively-hidden/)
 
