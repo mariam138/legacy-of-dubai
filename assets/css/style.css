@@ -1,0 +1,25 @@
+/* General style rules */
+* {
+    padding: 0;
+    margin: 0;
+    box-size: border-box;
+}
+
+/* Header */
+header {
+    background-color: brown;
+    position: fixed;
+    width: 100vw;
+}
+
+/* Main content */
+main {
+    background-color: orange;
+    height: 100vh;
+}
+
+/* Footer */
+footer {
+    background-color: chocolate;
+    width: 100vw;
+}

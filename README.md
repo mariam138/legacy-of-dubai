@@ -1,6 +1,6 @@
 # Legacy of Dubai: From Sands to Skyscrapers
 ## Introduction
-**Legacy of Dubai** is a website which goes into depth on the history of Dubai, from its beginnings as a Dessert emirate into the luxurious, glamorous City we know of today. The site is targetted towards people who want to learn more about Dubai and its rich history, especially those who are planning to visit Dubai or have already done so. **Legacy of Dubai** will be a useful tourist site for tourists and non-tourists alike who take great interest in Middle Eastern history and culture.
+**Legacy of Dubai** is a website which goes into depth on the history of Dubai, from its beginnings as a Dessert emirate into the luxurious, glamorous City we know of today. The site is targetted towards people who want to learn more about Dubai and its rich history, especially those who are planning to visit Dubai or have already done so. **Legacy of Dubai** will be a useful site for tourists and non-tourists alike who take great interest in Middle Eastern history and culture.
 
 ## Credits
 ### Content
