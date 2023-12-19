@@ -39,7 +39,7 @@ header {
     align-items: baseline;
 }
 
-/* Navbar styles with dropdown toggle */
+/* Navbar styles with dropdown toggle - code borrowed from Code Institute's Love Running project */
 nav {
     position: absolute;
     background-color: brown;
@@ -68,7 +68,7 @@ nav {
 main {
     background-color: orange;
     flex: 1 0 auto;
-    margin-top: 57px;
+    margin-top: 69px;
 }
 
 /* Footer */
