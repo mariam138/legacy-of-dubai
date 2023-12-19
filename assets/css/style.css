@@ -39,6 +39,25 @@ header {
     align-items: baseline;
 }
 
+/* Header logo styles */
+#legacy-dubai-logo {
+    padding: 20px 20px 10px;
+    font-weight: 700;
+    font-size: 180%;
+    text-align: left;
+    letter-spacing: 1.5px;
+}
+
+/*Styling of navigation links to override default styles */
+#nav-links {
+    list-style-type: none;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    line-height: 1.5;
+    font-size: 120%;
+    letter-spacing: 1.5px;
+}
+
 /* Navbar styles with dropdown toggle - code borrowed from Code Institute's Love Running project */
 nav {
     position: absolute;
@@ -68,30 +87,11 @@ nav {
 main {
     background-color: orange;
     flex: 1 0 auto;
-    margin-top: 69px;
+    margin-top: 65px;
 }
 
 /* Footer */
 footer {
     background-color: chocolate;
     width: 100vw;
-}
-
-/* Header logo styles */
-#legacy-dubai-logo {
-    padding: 20px 20px 10px;
-    font-weight: 700;
-    font-size: 200%;
-    text-align: left;
-    letter-spacing: 1.5px;
-}
-
-/*Styling of navigation links to override default styles */
-#nav-links {
-    list-style-type: none;
-    padding-left: 20px;
-    padding-bottom: 10px;
-    line-height: 1.5;
-    font-size: 120%;
-    letter-spacing: 1.5px;
 }
