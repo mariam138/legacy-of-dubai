@@ -108,3 +108,16 @@ footer {
     background-color: chocolate;
     width: 100vw;
 }
+
+/* Social media icon styling */
+#find-us-div {
+    font-size: 130%;
+    text-align: center;
+}
+
+#social-media-icons {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 130%;
+    padding-bottom: 15px;
+}
