@@ -83,6 +83,19 @@ nav {
     padding-right: 20px;
 }
 
+/*To make the navigation toggle accesible, making content visible to screen readers only but not visually
+Credit: https: //css-tricks.com/inclusively-hidden/ */
+.sr-only:not(:focus):not(:active) {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+
+}
+
 /* Main content */
 main {
     background-color: orange;
