@@ -1,8 +1,15 @@
-/* General style rules */
+/* Asterisk wildcard selector to override default styles */
 * {
     padding: 0;
     margin: 0;
     box-size: border-box;
+}
+
+/*General style rules */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 /* Header */
@@ -10,16 +17,22 @@ header {
     background-color: brown;
     position: fixed;
     width: 100vw;
+    z-index: 99;
 }
 
 /* Main content */
 main {
     background-color: orange;
-    height: 100vh;
+    flex: 1 0 auto;
+    margin-top: 57px;
 }
 
 /* Footer */
 footer {
     background-color: chocolate;
     width: 100vw;
+}
+
+h1 {
+    padding: 10px;
 }
