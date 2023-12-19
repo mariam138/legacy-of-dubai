@@ -34,6 +34,9 @@ header {
     position: fixed;
     width: 100vw;
     z-index: 99;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
 /* Navbar styles with dropdown toggle */
@@ -42,7 +45,23 @@ nav {
     background-color: brown;
     width: 100vw;
     display: none;
+    top: 100%;
 
+}
+
+/* Nav toggle */
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
+    padding-right: 20px;
 }
 
 /* Main content */
