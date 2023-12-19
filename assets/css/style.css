@@ -19,6 +19,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    font-family: Mukta, sans-serif;
 }
 
 /* Header */
@@ -46,13 +47,15 @@ h1, h2, h3 {
     font-family: Montserrat, sans-serif;
 }
 
-h1 {
+/* Header logo styles */
+#legacy-dubai-logo {
     padding: 20px 20px 10px;
     font-weight: 700;
     font-size: 200%;
     text-align: left;
 }
 
+/*Styling of navigation links to override default styles */
 #nav-links {
     list-style-type: none;
     padding-left: 20px;
