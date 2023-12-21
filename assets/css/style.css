@@ -109,18 +109,14 @@ footer {
 }
 
 /* Social media icon styling */
-#find-us-div {
-    font-size: 130%;
-    text-align: center;
-    margin-top: 10px;
-    margin-bottom: 5px;
-}
 
 #social-media-icons {
     display: flex;
     justify-content: space-evenly;
     font-size: 130%;
     padding-bottom: 15px;
+    align-items: center;
+    font-size: 175%;
 }
 
 /* Media query for screens of widtyh 768px and above */
