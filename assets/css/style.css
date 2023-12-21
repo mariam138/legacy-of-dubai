@@ -75,7 +75,6 @@ nav {
 
 #nav-toggle {
     display: none;
-
 }
 
 .nav-toggle-label {
@@ -122,4 +121,28 @@ footer {
     justify-content: space-evenly;
     font-size: 130%;
     padding-bottom: 15px;
+}
+
+/* Media query for screens of widtyh 768px and above */
+@media screen and (min-width: 768px) {
+/* Header */
+nav {
+    display: block;
+    position: relative;
+    width: fit-content;
+    padding-right: 1.5rem;
+}
+
+#nav-links {
+    display: flex;
+    justify-content: space-between;
+}
+
+#nav-links > li {
+    padding-left: 20px;
+}
+
+.nav-toggle-label {
+    display: none;
+}
 }
