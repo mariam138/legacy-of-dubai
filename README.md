@@ -16,7 +16,9 @@ I wanted the colour scheme of the website to reflect the colours of the desert, 
 I then used [ColorSpace](https://mycolor.space/) to generate a colour scheme using the chocolate brown colour as the main colour. I decided upon this colour scheme which includes a lighter brown colour, a beige-cream colour and a blue as an accent colour.
 ![Screenshot 2023-12-21 at 17 06 37](https://github.com/mariam138/legacy-of-dubai/assets/150139337/c274b7a4-580a-4fc4-8c90-871ccd10eada)
 
-To make sure these colours would be accessible to those who are visually impaired, I used [EightShapes' contrast grid](https://contrast-grid.eightshapes.com/). The brown and beige colours can be used interchangeable along with white and black. However the blue accent colour (Hex code #00B2FF) only passes the contrast test with Black, so for this I have decided to use it only as an accent colour with buttons for example. ![Screenshot 2023-12-21 at 17 08 12](https://github.com/mariam138/legacy-of-dubai/assets/150139337/a1dd0f70-6598-4e4b-a9d3-aa249a886a0e)
+To make sure these colours would be accessible to those who are visually impaired, I used [EightShapes' contrast grid](https://contrast-grid.eightshapes.com/). The brown and beige colours can be used interchangeable along with white and black. However the blue accent colour (Hex code #00B2FF) only passes the contrast test with Black, so for this I have decided to use it only as an accent colour with buttons for example. ![Screenshot 2023-12-21 at 17 13 08](https://github.com/mariam138/legacy-of-dubai/assets/150139337/53c65327-1b95-4206-a170-ce81ec4ba1a2)
+
+The lighter brown colour (Hex code #AB654C) however does not pass with the other colours, and only recieves a AA pass when used with black. So I decided to not use this colour throughout my project. 
 
 ## Credits
 ### Content

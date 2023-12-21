@@ -11,7 +11,7 @@
 /* Override default link styling */
 a:link, a:visited {
     text-decoration: none;
-    color: black;
+    color: #FFE7D6;
 }
 
 h1,
@@ -30,7 +30,7 @@ body {
 
 /* Header */
 header {
-    background-color: brown;
+    background-color: #73351F;
     position: fixed;
     width: 100vw;
     z-index: 99;
@@ -46,6 +46,7 @@ header {
     font-size: 180%;
     text-align: left;
     letter-spacing: 1.5px;
+    color: #FFE7D6;
 }
 
 /*Styling of navigation links to override default styles */
@@ -61,7 +62,7 @@ header {
 /* Navbar styles with dropdown toggle - code borrowed from Code Institute's Love Running project */
 nav {
     position: absolute;
-    background-color: brown;
+    background-color: #73351F;
     width: 100vw;
     display: none;
     top: 100%;
@@ -80,6 +81,7 @@ nav {
 .nav-toggle-label {
     font-size: 2rem;
     padding-right: 20px;
+    color: #FFE7D6;
 }
 
 /*To make the navigation toggle accesible, making content visible to screen readers only but not visually
@@ -97,14 +99,15 @@ Credit: https: //css-tricks.com/inclusively-hidden/ */
 
 /* Main content */
 main {
-    background-color: orange;
+    background-color: white;
     flex: 1 0 auto;
     margin-top: 65px;
 }
 
 /* Footer */
 footer {
-    background-color: chocolate;
+    background-color: #73351F;
+    color: #FFE7D6;
     width: 100vw;
 }
 
