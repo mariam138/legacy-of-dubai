@@ -198,5 +198,17 @@ nav {
     left: 75%;
     box-shadow: 5px 5px 8px rgba(255, 248, 220, 0.5);
 }
+
+/* Footer */
+
+/* To make the icons less stretched out in the footer and center them horizontally */
+#social-media-icons {
+    width: 50%;
+    transform: translateX(50%);
+}
+
+#social-media-icons i {
+    font-size: 135%;
+}
 }
 
