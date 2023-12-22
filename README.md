@@ -20,6 +20,12 @@ To make sure these colours would be accessible to those who are visually impaire
 
 The lighter brown colour (Hex code #AB654C) however does not pass with the other colours, and only recieves a AA pass when used with black. So I decided to not use this colour throughout my project. 
 
+##Testing
+
+###Bug Fixes
+
+Upon initial deployment onto github pages, none of the CSS styling appeared to be showing, despite showing on thge local server. When checking the code for the link to the CSS style sheet in the HTML index page, the file paths appeared to start with a forward slash (/), making them absolute file paths rather than relative file paths. Removing the forward slash fixed the problem, allowing the CSS  styling to show on the deployed webpage. 
+
 ## Credits
 ### Content
 
