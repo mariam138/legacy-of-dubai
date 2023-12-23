@@ -187,6 +187,11 @@ nav {
     padding-right: 1.5rem;
 }
 
+/* Make header logo larger on larger screens */
+#legacy-dubai-logo {
+    font-size: 150%;
+}
+
 #nav-links {
     display: flex;
     justify-content: space-between;
@@ -202,6 +207,10 @@ nav {
 
 /* Main content */
 
+/* To push down content so that the larger header on larger screens does not cover the main content */
+main {
+    margin-top: 61.8px;
+}
 /* Make the hero cover image text responsive */
 #hero-cover-text {
     width: 40%;
