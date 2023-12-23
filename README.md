@@ -20,11 +20,15 @@ To make sure these colours would be accessible to those who are visually impaire
 
 The lighter brown colour (Hex code #AB654C) however does not pass with the other colours, and only recieves a AA pass when used with black. So I decided to not use this colour throughout my project. 
 
-##Testing
+## Testing
 
-###Bug Fixes
+### Bug Fixes
 
 Upon initial deployment onto github pages, none of the CSS styling appeared to be showing, despite showing on thge local server. When checking the code for the link to the CSS style sheet in the HTML index page, the file paths appeared to start with a forward slash (/), making them absolute file paths rather than relative file paths. Removing the forward slash fixed the problem, allowing the CSS  styling to show on the deployed webpage. 
+
+After styling the hero image for the home screen, I checked to see whether it was responsive for all screen sizes. Viewing the home page on my laptop screen showed there to be some whitespace on the right of the page, leading to a horizontal scroll bar. This would lead to a bad user experience. 
+![Screenshot 2023-12-23 at 15 03 51](https://github.com/mariam138/legacy-of-dubai/assets/150139337/d3d65a43-5d60-4c2e-8000-22db718f0d68)
+
 
 ## Credits
 ### Content

@@ -126,11 +126,11 @@ main {
     bottom: 15%;
     padding: 15px 20px;
     box-shadow: 5px 5px 8px black;
+    border-radius: 2px;
     /* Horizontally centre the div when position: absolute;
     code credit: https: //codedamn.com/news/frontend/horizontal-alignment-in-css */
     left: 50%;
     transform: translateX(-50%);
-    border-radius: 2px;
 
 }
 
@@ -244,4 +244,11 @@ main {
     border-bottom: 1px solid #FFE7D6;
     }
 
+    /* Main content */
+
+    /* To remove the horizontal scroll bar on laptop screens */
+    body {
+       overflow-x: hidden;
+
+    }
 }
