@@ -170,6 +170,14 @@ main {
     padding: 20px;
 }
 
+/*Contact us page */
+#contact-page-image {
+    background: url('../images/dubai-contact-page.webp') no-repeat center center/cover;
+    width: 100%;
+    height: 700px;
+    position: relative;
+}
+
 /* Footer */
 footer {
     background-color: #73351F;
@@ -268,7 +276,6 @@ footer>p {
     #contact-button {
         background-color: #FFE7D6;
         color: #73351F;
-        border: solid 1px black;
         padding: 0 5px;
     }
 
