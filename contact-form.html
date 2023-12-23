@@ -49,6 +49,36 @@
 
     <main>
         <section id="contact-page-image">
+            <div id="contact-form">
+                <form action="thank-you.html" method="get">
+                    <p>Please enter your contact details</p>
+                    <label for="first-name">First Name:</label>
+                    <input type="text" id="first-name" required>
+                    <br>
+                    <label for="last-name">Last Name:</label>
+                    <input type="text" id="last-name" required>
+                    <br>
+                    <label for="email">Email Address:</label>
+                    <input type="email" name="email" id="email">
+                    <br>
+            
+                    <p>Have you visited Dubai before? (Optional)</p>
+                    <p>Please choose:</p>
+                    <label for="yes">Yes</label>
+                    <input type="radio" id="yes" value="yes" name="visit-options" checked>
+                    <label for="no">No</label>
+                    <input type="radio" id="no" value="no" name="visit-options">
+                    <label for="just-visited">I have visited recently</label>
+                    <input type="radio" name="visit-options" id="just-visited" value="just-visited">
+            
+                    <p>Your message:</p>
+                    <label for="contact-message"></label>
+                    <textarea name="contact-message" id="contact-message" cols="30" rows="10"
+                        placeholder="Type your message here"></textarea>
+            
+                    <button>Submit</button>
+                </form>
+            </div>
 
         </section>
     </main>
