@@ -59,6 +59,11 @@ header {
     letter-spacing: 1.5px;
 }
 
+/* To indicate to user which page they are on */
+.current-page {
+    border-bottom: 1px solid #FFE7D6;
+}
+
 /* Navbar styles with dropdown toggle - code borrowed from Code Institute's Love Running project */
 nav {
     position: absolute;
@@ -219,3 +224,15 @@ nav {
 }
 }
 
+/* Media query for laptop screens size 992px and above */
+@media screen and (min-width: 992px) {
+
+    /* Header */
+
+    /* To indicate to the user that the nav links are clickable */
+
+    #nav-links a:hover {
+    border-bottom: 1px solid #FFE7D6;
+    }
+
+}
