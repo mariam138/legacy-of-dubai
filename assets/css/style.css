@@ -160,9 +160,16 @@ footer {
     display: flex;
     justify-content: space-evenly;
     font-size: 150%;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding: 15px 0px 5px 0px;
     align-items: center;
+}
+
+/* Styling of the copyright text */
+
+footer > p {
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 75%;
 }
 
 /* Media query for screens of width 768px and above */
