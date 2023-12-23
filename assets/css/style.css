@@ -9,7 +9,8 @@
 }
 
 /* Override default link styling */
-a:link, a:visited {
+a:link,
+a:visited {
     text-decoration: none;
     color: #FFE7D6;
 }
@@ -111,7 +112,7 @@ main {
 
 /* Hero image styling */
 #dubai-hero-image {
-    background: url('../images/dubai-hero.webp') #FFE7D6 no-repeat  center center / cover;
+    background: url('../images/dubai-hero.webp') #FFE7D6 no-repeat center center / cover;
     width: 100%;
     height: 700px;
     position: relative;
@@ -134,36 +135,37 @@ main {
 
 }
 
-#hero-cover-text > h2 {
+#hero-cover-text>h2 {
     text-align: left;
     padding-bottom: 5px;
     font-size: 150%;
 }
 
-#hero-cover-text > hr {
+#hero-cover-text>hr {
     background-color: rgb(255, 231, 214, 0.6);
     border-color: #73351F;
 }
 
-#hero-cover-text > h3 {
+#hero-cover-text>h3 {
     font-size: 125%;
     font-weight: 500;
     text-align: right;
     padding-top: 5px;
 }
 
-#introduction > h2 {
+/* Introduction styling */
+#introduction>h2 {
     text-align: center;
     padding: 10px 7px 7px;
 }
 
-#introduction > hr {
+#introduction>hr {
     border: solid 2px rgba(115, 53, 31, 0.7);
     width: 85%;
     margin: 0 auto;
 }
 
-#introduction > p {
+#introduction>p {
     text-align: justify;
     padding: 20px;
 }
@@ -187,7 +189,7 @@ footer {
 
 /* Styling of the copyright text */
 
-footer > p {
+footer>p {
     text-align: center;
     padding-bottom: 10px;
     font-size: 75%;
@@ -195,58 +197,60 @@ footer > p {
 
 /* Media query for screens of width 768px and above */
 @media screen and (min-width: 768px) {
-/* Header */
-nav {
-    display: block;
-    position: relative;
-    width: fit-content;
-    padding-right: 1.5rem;
-}
 
-/* Make header logo larger on larger screens */
-#legacy-dubai-logo {
-    font-size: 150%;
-}
+    /* Header */
+    nav {
+        display: block;
+        position: relative;
+        width: fit-content;
+        padding-right: 2rem;
+    }
 
-#nav-links {
-    display: flex;
-    justify-content: space-between;
-}
+    /* Make header logo larger on larger screens */
+    #legacy-dubai-logo {
+        font-size: 2.5em;
+    }
 
-#nav-links > li {
-    padding-left: 20px;
-}
+    #nav-links {
+        display: flex;
+        justify-content: space-between;
+    }
 
-.nav-toggle-label {
-    display: none;
-}
+    #nav-links>li {
+        padding-left: 20px;
+    }
 
-/* Main content */
+    .nav-toggle-label {
+        display: none;
+    }
 
-/* To push down content so that the larger header on larger screens does not cover the main content */
-main {
-    margin-top: 61.8px;
-}
-/* Make the hero cover image text responsive */
-#hero-cover-text {
-    width: 40%;
-    height: 125px;
-    top: 10%;
-    left: 75%;
-    box-shadow: 5px 5px 8px rgba(255, 248, 220, 0.5);
-}
+    /* Main content */
 
-/* Footer */
+    /* To push down content so that the larger header on larger screens does not cover the main content */
+    main {
+        margin-top: 79px;
+    }
 
-/* To make the icons less stretched out in the footer and center them horizontally */
-#social-media-icons {
-    width: 50%;
-    transform: translateX(50%);
-}
+    /* Make the hero cover image text responsive */
+    #hero-cover-text {
+        width: 40%;
+        height: 125px;
+        top: 10%;
+        left: 75%;
+        box-shadow: 5px 5px 8px rgba(255, 248, 220, 0.5);
+    }
 
-#social-media-icons i {
-    font-size: 135%;
-}
+    /* Footer */
+
+    /* To make the icons less stretched out in the footer and center them horizontally */
+    #social-media-icons {
+        width: 50%;
+        transform: translateX(50%);
+    }
+
+    #social-media-icons i {
+        font-size: 135%;
+    }
 }
 
 /* Media query for laptop screens size 992px and above */
@@ -257,14 +261,27 @@ main {
     /* To indicate to the user that the nav links are clickable */
 
     #nav-links a:hover {
-    border-bottom: 1px solid #FFE7D6;
+        border-bottom: 1px solid #FFE7D6;
+    }
+
+    /* Make the "contact us" link look like a button to indicate a page not connected to the main content */
+    #contact-button {
+        background-color: #FFE7D6;
+        color: #73351F;
+        border: solid 1px black;
+        padding: 0 5px;
+    }
+
+    #contact-button:hover {
+        background-color: #00b2ff;
+        color: black;
     }
 
     /* Main content */
 
     /* To remove the horizontal scroll bar on laptop screens */
     body {
-       overflow-x: hidden;
+        overflow-x: hidden;
 
     }
 }
