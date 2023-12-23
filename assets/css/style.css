@@ -108,6 +108,9 @@ main {
     background-color: #FFE7D6;
     flex: 1 0 auto;
     margin-top: 54px;
+    /* To allow child elements to have flexbox properties */
+    display: flex;
+    flex-direction: column;
 }
 
 /* Hero image styling */
@@ -176,6 +179,65 @@ main {
     width: 100%;
     height: 700px;
     position: relative;
+}
+
+#contact-form {
+    margin: 20px 10% 0 10%;
+    background-color:rgba(255, 231, 214, 0.7);
+    padding: 25px;
+    border: 1px solid #73351F;
+    border-radius: 3px;
+    box-shadow: 5px 5px 5px rgb(40, 38, 38);
+}
+
+#contact-form p {
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+#contact-details {
+    padding-bottom: 10px;
+    border-bottom: solid 1px #73351F;
+}
+
+.text-input {
+    width: 100%;
+    height: 20px;
+    padding: 0px 5px;
+    border: 1px solid #73351F;
+}
+
+.text-input:focus {
+    background-color: rgba(0, 178, 255, 0.5)
+}
+
+#radio-buttons {
+    padding-bottom: 10px;
+    border-bottom: solid 1px #73351F;
+}
+
+#contact-form-message {
+    border: 1px solid #73351F;
+}
+
+#submit-button {
+    background-color: #73351F;
+    color: #FFE7D6;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 10px;
+    font-size: 1rem;
+    margin-top: 5px;
+}
+
+#clear-button {
+    background-color: black;
+    color: #00b2ff;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 10px;
+    font-size: 1rem;
+    margin-top: 5px;
 }
 
 /* Footer */
@@ -290,5 +352,20 @@ footer>p {
     body {
         overflow-x: hidden;
 
+    }
+
+    /* Contact form styling */
+
+    /* To indicate to user that there is some responsivity with the form buttons */
+    #submit-button:hover {
+        border: 1px solid #73351F;
+        background-color: #FFE7D6;
+         color: #73351F;
+    }
+
+    #clear-button:hover {
+         background-color: #00b2ff;
+        color: black;
+        border: 1px solid black;
     }
 }
