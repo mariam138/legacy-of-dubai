@@ -152,6 +152,22 @@ main {
     padding-top: 5px;
 }
 
+#introduction > h2 {
+    text-align: center;
+    padding: 10px 7px 7px;
+}
+
+#introduction > hr {
+    border: solid 2px rgba(115, 53, 31, 0.7);
+    width: 85%;
+    margin: 0 auto;
+}
+
+#introduction > p {
+    text-align: justify;
+    padding: 20px;
+}
+
 /* Footer */
 footer {
     background-color: #73351F;
