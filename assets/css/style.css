@@ -66,6 +66,9 @@ header {
     line-height: 1.5;
     font-size: 120%;
     letter-spacing: 1.5px;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
 }
 
 .button-light {
@@ -351,6 +354,11 @@ footer>p {
 @media screen and (min-width: 768px) {
 
     /* Header */
+
+    header {
+        align-items: flex-end;
+    }
+
     nav {
         display: block;
         position: relative;
@@ -360,12 +368,12 @@ footer>p {
 
     /* Make header logo larger on larger screens */
     #legacy-dubai-logo {
-        font-size: 2.5em;
+        font-size: 2.2rem;
     }
 
+    /* To allow the navigation links to appear in a row on larger screens */
     #nav-links {
-        display: flex;
-        justify-content: space-between;
+        flex-direction: row;
     }
 
     #nav-links>li {
@@ -380,7 +388,7 @@ footer>p {
 
     /* To push down content so that the larger header on larger screens does not cover the main content */
     main {
-        margin-top: 79px;
+        margin-top: 63px;
     }
 
     /* Make the hero cover image text responsive */
