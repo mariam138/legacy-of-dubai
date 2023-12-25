@@ -181,6 +181,24 @@ main {
     position: relative;
 }
 
+/* Styling of the text at the start of the form page */
+#form-header {
+    border-bottom: solid 1px #73351F ;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+#form-header > h2 {
+    padding-bottom: 5px;
+}
+
+#form-header > p {
+    line-height: 1.1rem;
+    font-size: 1.25rem;
+}
+
+/* Contact form styling */
+
 #contact-form {
     margin: 20px 10% 0 10%;
     background-color:rgba(255, 231, 214, 0.7);
@@ -190,14 +208,14 @@ main {
     box-shadow: 5px 5px 5px rgb(40, 38, 38);
 }
 
-#contact-form p {
-    font-weight: 700;
-    text-decoration: underline;
-}
-
 #contact-details {
     padding-bottom: 10px;
     border-bottom: solid 1px #73351F;
+}
+
+#contact-details>p {
+    font-weight: 700;
+    text-decoration: underline;
 }
 
 .text-input {
