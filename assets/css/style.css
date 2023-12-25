@@ -44,11 +44,12 @@ header {
     background: url("../images/uae-flag.png") no-repeat top left 10px / cover;
     width: 50px;
     height: 50px;
-    margin-top: 5px;
+    margin-top: 10px;
 }
 
 #legacy-dubai-logo {
     display: flex;
+    align-items: center;
 }
 
 /* Header logo styles */
@@ -471,6 +472,11 @@ footer>p {
     }
 
     /* Main content */
+
+    /* Make the hero cover text div slightly smaller on big screens */
+    #hero-cover-text {
+        width: 30%;
+    }
 
     /* To remove the horizontal scroll bar on laptop screens */
     body {

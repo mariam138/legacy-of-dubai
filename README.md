@@ -20,11 +20,72 @@ To make sure these colours would be accessible to those who are visually impaire
 
 The lighter brown colour (Hex code #AB654C) however does not pass with the other colours, and only recieves a AA pass when used with black. So I decided to not use this colour throughout my project. 
 
+## Features
+### Common Features
+
+#### Navigation Bar
+The first common feature of the website is the navigation bar. The navigation bar keeps the same style across all pages of the website (including the hidden pages) and keeps the logo on the left hand side.
+
+On mobile phones, a menu icon is placed on the right hand side, and when clicked upon, a drop down menu appears underneath with the links showing in a column.
+
+![Screenshot 2023-12-25 at 18 04 45](https://github.com/mariam138/legacy-of-dubai/assets/150139337/79364e15-c74c-4932-8393-0a8254835902)
+![Screenshot 2023-12-25 at 18 05 02](https://github.com/mariam138/legacy-of-dubai/assets/150139337/3180a10a-7342-4c95-b3a2-01add7b4f95a)
+
+On larger screens, the menu icon is gotten rid of in favour of having the links display in a row on the right hand side of the header.
+
+![Screenshot 2023-12-25 at 18 30 01](https://github.com/mariam138/legacy-of-dubai/assets/150139337/3f7a81da-138a-46ba-ab86-9275f2e98dae)
+
+The **Contact Us** link has been styled as a button on all screen sizes to indicate that this page does not follow the flow of the main content. 
+
+The navigation links are underlined as a visual clue to the user to highlight which page they are currently on.
+
+![Screenshot 2023-12-25 at 18 37 12](https://github.com/mariam138/legacy-of-dubai/assets/150139337/fa65326b-3cb5-4734-960c-a142f11130d2)
+
+On laptop screens and larger, the **Page 1 and Page 2** links show an underline when theyuser hovers on them to indicate that they are cliackable. For the **Contact Us** button, the button changes into a blue colour with black text when hovered upon, again to show it is clickable, but also that it will lead to a page which is not part of the main content.
+
+![Screenshot 2023-12-25 at 18 43 25](https://github.com/mariam138/legacy-of-dubai/assets/150139337/c5f5a36f-0ee6-40c9-9b74-f87faa4eae59)
+
+![Screenshot 2023-12-25 at 18 41 16](https://github.com/mariam138/legacy-of-dubai/assets/150139337/72ee1c25-cab4-4bec-aac3-9eccb3237813)
+
+#### Footer
+
+The footer, like the navigation bar, also remains the same on all pages of the website. The footer includes 3 links to social networking sites: Facebook, Twitter/X and Instagram. Underneath the links there is copyright text. 
+
+![Screenshot 2023-12-25 at 18 49 58](https://github.com/mariam138/legacy-of-dubai/assets/150139337/1e1d4dd0-528c-42d2-9692-6d5e67ecea33)
+
+On laptop and desktop screens, hovering over the links will produce an underline. Again, this is to indicate that the links are clickable.
+
+![Screenshot 2023-12-25 at 18 53 49](https://github.com/mariam138/legacy-of-dubai/assets/150139337/bef8b79c-1411-4eed-aa9e-7d019f4a1c94)
+
+## Other Features
+### Home Page
+
+The home page has a hero image of the Burj Khalifa at night time, one  of Dubai's most famous landmarks and also the tallest building in the world. I wanted to use this as the main hero image due to its recognisability and association with Dubai. 
+
+![Screenshot 2023-12-25 at 20 21 08](https://github.com/mariam138/legacy-of-dubai/assets/150139337/f0c49481-d894-411a-96ae-9d040e006ac0)
+
+There is also overlay text which reinforces the website's name, and also provides a tagline of "From Sands to Skyscrapers". The same tagline is in the website's title, so that it shows in the tab on the web browser. This tagline summarises the history of Dubai but adds some drama. <!--reword this please).--> The overlay text is centered on mobile phones, but on larger screens it is placed in the top-right corner as to not cover the background image of the Burj Khalifa. 
+
+![Screenshot 2023-12-25 at 20 18 54](https://github.com/mariam138/legacy-of-dubai/assets/150139337/70507472-5b44-4e53-8a63-d680a2e97eb7)
+
+<!-- Add section here about the introduction text underneath once it's been made responsive and been re-written.-->
+
+### Contact Form Page
+
+The contact form page has a different hero image this time, one of the Burj al Arab, another famoud landmark of Dubai. 
+
+The contact form has been placed over the image but given some transparency to allow the picture of the Burj al Arab to still show through behind. 
+
+The contact form allows the user to contact the author <!--?--> about any questions they may have about the information on the website. The contact form requires both a First and Last name, an e-mail address and a message. There is an optional radio button section which allows the user to enter whether they have visited Dubai before or not.
+
+![Screenshot 2023-12-25 at 20 29 11](https://github.com/mariam138/legacy-of-dubai/assets/150139337/3504b4df-8913-41bf-8f9c-170993243706)
+
+
 ## Testing
 
 ### Bug Fixes
 
-- Upon initial deployment onto github pages, none of the CSS styling appeared to be showing, despite showing on thge local server. When checking the code for the link to the CSS style sheet in the HTML index page, the file paths appeared to start with a forward slash (/), making them absolute file paths rather than relative file paths. Removing the forward slash fixed the problem, allowing the CSS  styling to show on the deployed webpage. 
+- Upon initial deployment onto github pages, none of the CSS styling appeared to be showing, despite showing on thge local server. When checking the code for the link to the CSS style sheet in the HTML index page, the file paths appeared to start with a forward slash (/), making them absolute file paths rather than relative file paths. Removing the forward slash fixed the problem, allowing the CSS  styling to show on the deployed webpage.
 
 - After styling the hero image for the home screen, I checked to see whether it was responsive for all screen sizes. Viewing the home page on my laptop screen showed there to be some whitespace on the right of the page, leading to a horizontal scroll bar. This would lead to a bad user experience. 
 ![Screenshot 2023-12-23 at 15 03 51](https://github.com/mariam138/legacy-of-dubai/assets/150139337/d3d65a43-5d60-4c2e-8000-22db718f0d68)
@@ -43,5 +104,5 @@ To fix this, I used the **overflow-x** property to hide the horizontal scroll ba
 - The template code to insert the favicon is from [W3S Schools](https://www.w3schools.com/html/html_favicon.asp)
 - The code to create a sticky header and push the footer to the bottom is from the [Code Institute Love Running project](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LRFX101+2023_Q2/courseware/e805068059af42af87681032aa64053f/7525117e5cd144daa2a7b0c57843bbee/)
 - The code to create the dropdown toggle for mobile navigation is from the [Code Institute Love Running project](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LRFX101+2023_Q2/courseware/e805068059af42af87681032aa64053f/7525117e5cd144daa2a7b0c57843bbee/)
-- The code to make the toggle on the mobile navbar is from [css-tricks](https://css-tricks.com/inclusively-hidden/)
+- The code to make the toggle on the mobile navbar accesssible is from [css-tricks](https://css-tricks.com/inclusively-hidden/)
 
