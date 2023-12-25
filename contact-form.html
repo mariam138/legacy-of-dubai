@@ -41,7 +41,9 @@
                     <a href="page-2.html">Page 2</a>
                 </li>
                 <li>
-                    <a href="contact-form.html" class="current-page" id="contact-button">Contact Us</a>
+                    <button class="button-light" id="contact-button">
+                        <a href="contact-form.html">Contact Us</a>
+                    </button>
                 </li>
             </ul>
         </nav>
@@ -68,23 +70,31 @@
                         <br>
                     </div>
 
-                    <div id="radio-buttons">
+                    <div id="radio-optional">
                         <p>Have you visited Dubai before? (Optional)</p>
-                        <label for="yes">Yes</label>
-                        <input type="radio" id="yes" value="yes" name="visit-options" checked>
-                        <label for="no">No</label>
-                        <input type="radio" id="no" value="no" name="visit-options">
-                        <label for="just-visited">I have visited recently</label>
-                        <input type="radio" name="visit-options" id="just-visited" value="just-visited">
-                    </div>
+                        <div id="radio-buttons">
+                            <div>
+                                <label for="yes">Yes</label>
+                                <input type="radio" id="yes" value="yes" name="visit-options">
+                            </div>
+                            <div>
+                                <label for="no">No</label>
+                                <input type="radio" id="no" value="no" name="visit-options">
+                            </div>
+                            <div>
+                                <label for="just-visited">I have visited recently</label>
+                                <input type="radio" name="visit-options" id="just-visited" value="just-visited">
+                            </div>
+                        </div>
+                        </div>
                     
                     <div id="contact-message">
                         <p>Your message:</p>
                         <label for="contact-form-message"></label>
                         <textarea name="contact-message" id="contact-form-message" cols="30" rows="7"
-                            placeholder="Type your message here"></textarea>
+                            placeholder="Type your message here" required></textarea>
                         <div id="form-buttons">
-                            <button id="submit-button">Submit</button>
+                            <button class="button-dark">Submit</button>
                             <button id="clear-button" type="reset">Clear</button>
                         </div>
                     </div>

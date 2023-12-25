@@ -60,6 +60,21 @@ header {
     letter-spacing: 1.5px;
 }
 
+.button-light {
+    background-color: #FFE7D6;
+    color: #73351F;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 10px;
+    font-size: 1rem;
+    margin-top: 5px;
+    margin-right: 15px;
+}
+
+.button-light > a:visited {
+    color:#73351F;
+}
+
 /* To indicate to user which page they are on */
 .current-page {
     border-bottom: 1px solid #FFE7D6;
@@ -173,7 +188,7 @@ main {
     padding: 20px;
 }
 
-/*Contact us page */
+/*Contact form page */
 #contact-page-image {
     background: url('../images/dubai-contact-page.webp') no-repeat 45% center/cover;
     width: 100%;
@@ -195,6 +210,7 @@ main {
 #form-header > p {
     line-height: 1.1rem;
     font-size: 1.25rem;
+    padding-bottom: 3px;;
 }
 
 /* Contact form styling */
@@ -229,14 +245,21 @@ main {
     background-color: rgba(0, 178, 255, 0.5)
 }
 
-#radio-buttons {
+#radio-optional {
     padding-bottom: 10px;
     border-bottom: solid 1px #73351F;
 }
 
-#radio-buttons > p {
+#radio-optional > p {
     font-weight: 700;
     text-decoration: underline;
+}
+
+/* Code taken from Code Institute's Love Running project */
+#radio-buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
 }
 
 #contact-form-message {
@@ -248,7 +271,7 @@ main {
     text-align: center;
 }
 
-#submit-button {
+.button-dark {
     background-color: #73351F;
     color: #FFE7D6;
     border: none;
@@ -268,6 +291,27 @@ main {
     font-size: 1rem;
     margin-top: 5px;
     margin-left: 15px;
+}
+
+/* Hidden thank you page styling */
+#thank-you-page {
+    margin: 10% 10% 0;
+    text-align: center;
+}
+
+#thank-you-page > h2 {
+    padding-bottom: 10px;
+    letter-spacing: 1.5px;
+}
+
+#thank-you-page > p {
+    text-align: justify;
+    line-height: 1.2rem;
+    padding-bottom: 20px;
+}
+
+#thank-you-page > button {
+    font-size: 1.25rem;
 }
 
 /* Footer */
@@ -324,13 +368,6 @@ footer>p {
         display: none;
     }
 
-    /* Make the "contact us" link look like a button to indicate a page not connected to the main content */
-    #contact-button {
-        background-color: #FFE7D6;
-        color: #73351F;
-        padding: 0 5px;
-    }
-
     /* Main content */
 
     /* To push down content so that the larger header on larger screens does not cover the main content */
@@ -358,6 +395,11 @@ footer>p {
         max-width: 500px;
         margin-top: 40px;
         right: -5%;
+    }
+
+    #radio-buttons {
+        display: flex;
+        justify-content: space-between;
     }
 
     #contact-form-message {
@@ -388,11 +430,21 @@ footer>p {
         border-bottom: 1px solid #FFE7D6;
     }
 
+    /* Hover styling for contact us button */
     #contact-button:hover {
         background-color: #00b2ff;
         color: black;
         border: 1px solid black;
     }
+
+    .button-light>a:visited {
+        color: black;
+    }
+
+    #contact-button>a:hover {
+        border: none;
+    }
+
     /* Main content */
 
     /* To remove the horizontal scroll bar on laptop screens */
@@ -404,10 +456,10 @@ footer>p {
     /* Contact form styling */
 
     /* To indicate to user that there is some responsivity with the form buttons */
-    #submit-button:hover {
-        border: 1px solid #73351F;
+    .button-dark:hover {
         background-color: #FFE7D6;
-         color: #73351F;
+        color: #73351F;
+        border: 1px solid #73351F;
     }
 
     #clear-button:hover {
