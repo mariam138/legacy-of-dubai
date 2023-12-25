@@ -37,12 +37,20 @@ header {
     z-index: 99;
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
+    align-items: center;
 }
+
+#uae-flag-icon {
+    background: url("../images/uae-flag.png") no-repeat top left 10px / cover;
+    width: 50px;
+    height: 50px;
+    margin-top: 5px;
+}
+
 
 /* Header logo styles */
 #legacy-dubai-logo {
-    padding: 20px 20px 10px;
+    padding: 10px 20px;
     font-weight: 700;
     font-size: 125%;
     text-align: left;
@@ -122,7 +130,7 @@ Credit: https: //css-tricks.com/inclusively-hidden/ */
 main {
     background-color: #FFE7D6;
     flex: 1 0 auto;
-    margin-top: 54px;
+    margin-top: 55px;
     /* To allow child elements to have flexbox properties */
     display: flex;
     flex-direction: column;
@@ -467,4 +475,10 @@ footer>p {
         color: black;
         border: 1px solid black;
     }
+
+    /* Footer */
+    /* Add hover styling to social media links */
+        #social-media-icons>span>a:hover{
+            border-bottom: 1px solid #FFE7D6;
+        }
 }
