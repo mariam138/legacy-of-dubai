@@ -203,6 +203,13 @@ main {
     padding: 20px;
 }
 
+
+/* Pre-oil page styling */
+.text-properties {
+    padding: 15px;
+    line-height: 1.6;
+}
+
 /*Contact form page */
 #contact-page-image {
     background: url('../images/dubai-contact-page.webp') no-repeat 45% center/cover;
