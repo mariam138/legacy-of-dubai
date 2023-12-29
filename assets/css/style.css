@@ -86,8 +86,8 @@ header {
     margin-right: 15px;
 }
 
-.button-light > a:visited {
-    color:#73351F;
+.button-light>a:visited {
+    color: #73351F;
 }
 
 /* To indicate to user which page they are on */
@@ -239,26 +239,27 @@ main {
 
 /* Styling of the text at the start of the form page */
 #form-header {
-    border-bottom: solid 1px #73351F ;
+    border-bottom: solid 1px #73351F;
     padding-bottom: 5px;
     text-align: center;
 }
 
-#form-header > h2 {
+#form-header>h2 {
     padding-bottom: 5px;
 }
 
-#form-header > p {
+#form-header>p {
     line-height: 1.1rem;
     font-size: 1.25rem;
-    padding-bottom: 3px;;
+    padding-bottom: 3px;
+    ;
 }
 
 /* Contact form styling */
 
 #contact-form {
     margin: 20px 10% 0 10%;
-    background-color:rgba(255, 231, 214, 0.6);
+    background-color: rgba(255, 231, 214, 0.6);
     padding: 25px;
     border: 1px solid #73351F;
     border-radius: 3px;
@@ -291,7 +292,7 @@ main {
     border-bottom: solid 1px #73351F;
 }
 
-#radio-optional > p {
+#radio-optional>p {
     font-weight: 700;
     text-decoration: underline;
 }
@@ -334,24 +335,24 @@ main {
     margin-left: 15px;
 }
 
-/* Hidden thank you page styling */
-#thank-you-page {
+/* Hidden pages styling */
+.hidden-page {
     margin: 10% 10% 0;
     text-align: center;
 }
 
-#thank-you-page > h2 {
+.hidden-page>h2 {
     padding-bottom: 10px;
     letter-spacing: 1.5px;
 }
 
-#thank-you-page > p {
+.hidden-page>p {
     text-align: justify;
     line-height: 1.2rem;
     padding-bottom: 20px;
 }
 
-#thank-you-page > button {
+.hidden-page>button {
     font-size: 1.25rem;
 }
 
@@ -429,7 +430,7 @@ footer>p {
         left: 75%;
         box-shadow: 5px 5px 8px rgba(255, 248, 220, 0.5);
     }
-    
+
     /* Make the contact form responsive */
     #contact-page-image {
         background-position: center center;
@@ -474,9 +475,11 @@ footer>p {
     #legacy-dubai-logo {
         justify-content: flex-start;
     }
+
     #nav-links {
         justify-content: flex-end;
     }
+
     /* To indicate to the user that the nav links are clickable */
     #nav-links a:hover {
         border-bottom: 1px solid #FFE7D6;
@@ -536,7 +539,7 @@ footer>p {
 
     /* Footer */
     /* Add hover styling to social media links */
-        #social-media-icons>span>a:hover{
-            border-bottom: 1px solid #FFE7D6;
-        }
+    #social-media-icons>span>a:hover {
+        border-bottom: 1px solid #FFE7D6;
+    }
 }
