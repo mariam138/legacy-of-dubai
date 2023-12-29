@@ -217,12 +217,12 @@ main {
 }
 
 .paragraph {
-    padding: 0px 20px 5px;
+    padding: 5px 20px;
     font-size: 1.2rem;
 }
 
-/* To align the flag picture in the centre of the page no matter the screen width */
-#trucial-states-flag {
+/* To align any pictures in the centre of the page no matter the screen width */
+.pictures {
     display: flex;
     flex-direction: column;
     align-items: center;
