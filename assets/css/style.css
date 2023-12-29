@@ -135,6 +135,7 @@ Credit: https: //css-tricks.com/inclusively-hidden/ */
 
 /* Main content */
 main {
+    line-height: 1.6;
     background-color: #FFE7D6;
     flex: 1 0 auto;
     margin-top: 55px;
@@ -198,16 +199,34 @@ main {
     margin: 0 auto;
 }
 
-#introduction>p {
-    text-align: justify;
-    padding: 20px;
+/* Main content styling */
+.page-header {
+    text-align: center;
+    padding: 20px 20px 10px;
+    text-decoration: underline;
+    font-size: 170%;
 }
 
+.line-style {
+    border: solid 1px #73351F
+}
 
-/* Pre-oil page styling */
-.text-properties {
-    padding: 15px;
-    line-height: 1.6;
+.section-header {
+    padding: 15px 20px;
+    font-size: 125%;
+}
+
+.paragraph {
+    padding: 0px 20px 5px;
+    font-size: 1.2rem;
+}
+
+/* To align the flag picture in the centre of the page no matter the screen width */
+#trucial-states-flag {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
 }
 
 /*Contact form page */
