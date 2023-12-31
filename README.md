@@ -107,8 +107,8 @@ The contact form allows the user to contact the author <!--?--> about any questi
 5. On larger screens, the background picture of the Burj Al Arab on the contact form page would show a gap underneath, rather than covering the full screen. This turned out to be because I had set the height on the image to 700px. To fix this, I changed the height to 100vh instead, and also added the property background-attachment and made it fixed. This is so that when scrolling on larger screens, if the height of the image was less than the screen the gap would not show when scrolling.
 
 6. For the contact form, I used a **textarea** element for the "Your message" part of the form. I set the width and height using the **cols** and **rows** attributes in the html tag. On larger screens, this was fine. But on smaller screens, such as on mobile screens, the text area would overflow over the actual contact form itself. 
-   ![Screenshot 2023-12-31 at 19 04 55](https://github.com/mariam138/legacy-of-dubai/assets/150139337/4a78bf24-7fdd-4c54-af14-f43b51cc383d)
-   By setting the width of the text area to 100%, this allowed it to stay within the contact form divider at all screen sizes.
+![Screenshot 2023-12-31 at 19 04 55](https://github.com/mariam138/legacy-of-dubai/assets/150139337/4a78bf24-7fdd-4c54-af14-f43b51cc383d)
+By setting the width of the text area to 100%, this allowed it to stay within the contact form divider at all screen sizes.
 
 ## Credits
 ### Content
