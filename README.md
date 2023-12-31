@@ -103,6 +103,8 @@ The contact form allows the user to contact the author <!--?--> about any questi
 4. When embedding a youtube video into the post-oil.html page, the youtube video would not load and a broken link would show. 
    ![Screenshot 2023-12-31 at 12 51 27](https://github.com/mariam138/legacy-of-dubai/assets/150139337/99c42be7-b44a-4000-bafc-20ff96d67471)
    Instead of copying the url directly into the src attribute tag for the iframe, I copied and pasted the embed tag that youtube itself gives for the video. There may also have been a missing > at the end of my iframe tag which is why the video may not have worked. This solved the issue and the youtube video was able to load.
+   
+5. On larger screens, the background picture of the Burj Al Arab on the contact form page would show a gap underneath, rather than covering the full screen. This turned out to be because I had set the height on the image to 700px. To fix this, I changed the height to 100vh instead, and also added the property background-attachment and made it fixed. This is so that when scrolling on larger screens, if the height of the image was less than the screen the gap would not show when scrolling.
 
 ## Credits
 ### Content
