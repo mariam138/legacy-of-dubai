@@ -219,14 +219,18 @@ main {
   font-size: 1.2rem;
 }
 
-/* To align any pictures in the centre of the page */
+
 .pictures {
-  display: block;
-  margin: 0 auto;
-  padding: 10px 25px;
   /* Scales down the image if needed but image will never exceed it's full width - code from https: //www.w3schools.com/css/css3_images.asp */
   max-width: 100%;
   height: auto;
+}
+
+/* To align any pictures in the centre of the page */
+.center {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 25px;
 }
 
 /*To align captions centrally and change the colour of the text to distinguish it from the main content */
@@ -435,6 +439,13 @@ footer > p {
     top: 10%;
     left: 75%;
     box-shadow: 5px 5px 8px rgba(255, 248, 220, 0.5);
+  }
+
+  /* To move the picture to the left on bigger screens to make use of the horizontal space available */
+  #trucial-states-flag {
+    float: left;
+    max-width: 320px;
+    padding: 5px 15px 0 25px;
   }
 
   /* Make the contact form responsive */
