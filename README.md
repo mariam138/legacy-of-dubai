@@ -102,6 +102,7 @@ The contact form allows the user to contact the author <!--?--> about any questi
     
 4. When embedding a youtube video into the post-oil.html page, the youtube video would not load and a broken link would show. 
    ![Screenshot 2023-12-31 at 12 51 27](https://github.com/mariam138/legacy-of-dubai/assets/150139337/99c42be7-b44a-4000-bafc-20ff96d67471)
+   Instead of copying the url directly into the src attribute tag for the iframe, I copied and pasted the embed tag that youtube itself gives for the video. There may also have been a missing > at the end of my iframe tag which is why the video may not have worked. This solved the issue and the youtube video was able to load.
 
 ## Credits
 ### Content
