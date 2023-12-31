@@ -240,6 +240,23 @@ main {
   padding: 0 15px 5px;
 }
 
+/* To make the youtube video responsive - tutorial from https: //www.avexdesigns.com/blog/responsive-youtube-embed/ */
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
 /*Contact form page */
 #contact-page-image {
   background: url("../images/dubai-contact-page.webp") no-repeat 45%
