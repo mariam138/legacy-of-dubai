@@ -93,6 +93,12 @@ The contact form allows the user to contact the author <!--?--> about any questi
 To fix this, I used the **overflow-x** property to hide the horizontal scroll bar. This helped to get ride of the white space on the screen. 
 ![Screenshot 2023-12-23 at 15 33 10](https://github.com/mariam138/legacy-of-dubai/assets/150139337/8eed11cb-78f2-4417-99eb-9907466849c3)
 
+- When inserting images into the main content, I tried to use the picture tag so that I could use media queries to have different resolutions of the same picture show at different screen sizes. But when checking on both Dev tools and on the deployed website, this didn't seem to work, and would only show the smallest resolution image.
+
+![Screenshot 2023-12-31 at 10 47 15](https://github.com/mariam138/legacy-of-dubai/assets/150139337/23dc6260-d745-47dc-b849-ed8d2093a7c2)
+![Screenshot 2023-12-31 at 10 47 34](https://github.com/mariam138/legacy-of-dubai/assets/150139337/f650153e-0f00-4e41-a8cd-21002b54d9e0)
+
+- I tried running the code through the W3C HTML validator to check for any errors, in which it didn't bring up any. Googling for an answer also came to no avail. I used the tutor service to see if they could help with my code as a final resort. The tutor checked my media queries using a different image which seemed to work, but would not work on the images I wanted to use. Unfortunately, the tutor could also not figure out the problem. So I had to resort back to using the img tag instead and using the media queries in my CSS stylesheet. 
 
 ## Credits
 ### Content
