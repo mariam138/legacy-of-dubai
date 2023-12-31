@@ -85,20 +85,23 @@ The contact form allows the user to contact the author <!--?--> about any questi
 
 ### Bug Fixes
 
-- Upon initial deployment onto github pages, none of the CSS styling appeared to be showing, despite showing on thge local server. When checking the code for the link to the CSS style sheet in the HTML index page, the file paths appeared to start with a forward slash (/), making them absolute file paths rather than relative file paths. Removing the forward slash fixed the problem, allowing the CSS  styling to show on the deployed webpage.
+1. Upon initial deployment onto github pages, none of the CSS styling appeared to be showing, despite showing on thge local server. When checking the code for the link to the CSS style sheet in the HTML index page, the file paths appeared to start with a forward slash (/), making them absolute file paths rather than relative file paths. Removing the forward slash fixed the problem, allowing the CSS  styling to show on the deployed webpage.
 
-- After styling the hero image for the home screen, I checked to see whether it was responsive for all screen sizes. Viewing the home page on my laptop screen showed there to be some whitespace on the right of the page, leading to a horizontal scroll bar. This would lead to a bad user experience. 
+2. After styling the hero image for the home screen, I checked to see whether it was responsive for all screen sizes. Viewing the home page on my laptop screen showed there to be some whitespace on the right of the page, leading to a horizontal scroll bar. This would lead to a bad user experience. 
 ![Screenshot 2023-12-23 at 15 03 51](https://github.com/mariam138/legacy-of-dubai/assets/150139337/d3d65a43-5d60-4c2e-8000-22db718f0d68)
 
-To fix this, I used the **overflow-x** property to hide the horizontal scroll bar. This helped to get ride of the white space on the screen. 
-![Screenshot 2023-12-23 at 15 33 10](https://github.com/mariam138/legacy-of-dubai/assets/150139337/8eed11cb-78f2-4417-99eb-9907466849c3)
+    To fix this, I used the **overflow-x** property to hide the horizontal scroll bar. This helped to get ride of the white space on the screen. 
+    ![Screenshot 2023-12-23 at 15 33 10](https://github.com/mariam138/legacy-of-dubai/assets/150139337/8eed11cb-78f2-4417-99eb-9907466849c3)
 
-- When inserting images into the main content, I tried to use the picture tag so that I could use media queries to have different resolutions of the same picture show at different screen sizes. But when checking on both Dev tools and on the deployed website, this didn't seem to work, and would only show the smallest resolution image.
+3. When inserting images into the main content, I tried to use the picture tag so that I could use media queries to have different resolutions of the same picture show at different screen sizes. But when checking on both Dev tools and on the deployed website, this didn't seem to work, and would only show the smallest resolution image.
 
-![Screenshot 2023-12-31 at 10 47 15](https://github.com/mariam138/legacy-of-dubai/assets/150139337/23dc6260-d745-47dc-b849-ed8d2093a7c2)
-![Screenshot 2023-12-31 at 10 47 34](https://github.com/mariam138/legacy-of-dubai/assets/150139337/f650153e-0f00-4e41-a8cd-21002b54d9e0)
+    ![Screenshot 2023-12-31 at 10 47 15](https://github.com/mariam138/legacy-of-dubai/assets/150139337/23dc6260-d745-47dc-b849-ed8d2093a7c2)
+    ![Screenshot 2023-12-31 at 10 47 34](https://github.com/mariam138/legacy-of-dubai/assets/150139337/f650153e-0f00-4e41-a8cd-21002b54d9e0)
 
-- I tried running the code through the W3C HTML validator to check for any errors, in which it didn't bring up any. Googling for an answer also came to no avail. I used the tutor service to see if they could help with my code as a final resort. The tutor checked my media queries using a different image which seemed to work, but would not work on the images I wanted to use. Unfortunately, the tutor could also not figure out the problem. So I had to resort back to using the img tag instead and using the media queries in my CSS stylesheet. 
+    I tried running the code through the W3C HTML validator to check for any errors, in which it didn't bring up any. Googling for an answer also came to no avail. I used the tutor service to see if they could help with my code as a final resort. The tutor checked my media queries using a different image which seemed to work, but would not work on the images I wanted to use. Unfortunately, the tutor could also not figure out the problem. So I had to resort back to using the img tag instead and using the media queries in my CSS stylesheet. 
+    
+4. When embedding a youtube video into the post-oil.html page, the youtube video would not load and a broken link would show. 
+   ![Screenshot 2023-12-31 at 12 51 27](https://github.com/mariam138/legacy-of-dubai/assets/150139337/99c42be7-b44a-4000-bafc-20ff96d67471)
 
 ## Credits
 ### Content
