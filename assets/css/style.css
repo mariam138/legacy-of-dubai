@@ -3,227 +3,226 @@
 
 /* Asterisk wildcard selector to override default styles */
 * {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 /* Override default link styling */
 a:link,
 a:visited {
-  text-decoration: none;
-  color: #ffe7d6;
+    text-decoration: none;
+    color: #ffe7d6;
 }
 
 h1,
 h2,
 h3 {
-  font-family: Montserrat, sans-serif;
+    font-family: Montserrat, sans-serif;
 }
 
 /*General style rules */
 body {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  font-family: Mukta, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: Mukta, sans-serif;
 }
 
 /* Header */
 header {
-  background-color: #73351f;
-  position: fixed;
-  width: 100vw;
-  z-index: 99;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+    background-color: #73351f;
+    position: fixed;
+    width: 100vw;
+    z-index: 99;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 #uae-flag-icon {
-  background: url("../images/uae-flag.png") no-repeat top left 10px / cover;
-  width: 50px;
-  height: 50px;
-  margin-top: 10px;
+    background: url("../images/uae-flag.png") no-repeat top left 10px / cover;
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
 }
 
 #legacy-dubai-logo {
-  display: flex;
-  align-items: center;
+    display: flex;
+    align-items: center;
 }
 
 /* Header logo styles */
 #legacy-dubai-header {
-  padding: 10px 20px;
-  font-weight: 700;
-  font-size: 125%;
-  text-align: left;
-  letter-spacing: 1.5px;
-  color: #ffe7d6;
+    padding: 10px 20px;
+    font-weight: 700;
+    font-size: 125%;
+    text-align: left;
+    letter-spacing: 1.5px;
+    color: #ffe7d6;
 }
 
 /*Styling of navigation links to override default styles */
 #nav-links {
-  list-style-type: none;
-  padding-left: 20px;
-  padding-bottom: 10px;
-  line-height: 1.5;
-  font-size: 120%;
-  letter-spacing: 1.5px;
-  display: flex;
-  flex-direction: column;
-  align-items: baseline;
+    list-style-type: none;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    line-height: 1.5;
+    font-size: 120%;
+    letter-spacing: 1.5px;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
 }
 
 .button-light {
-  background-color: #ffe7d6;
-  color: #73351f;
-  border: none;
-  border-radius: 3px;
-  padding: 5px 10px;
-  font-size: 1rem;
-  margin-top: 5px;
-  margin-right: 15px;
+    background-color: #ffe7d6;
+    color: #73351f;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 10px;
+    font-size: 1rem;
+    margin-top: 5px;
+    margin-right: 15px;
 }
 
-.button-light > a:visited {
-  color: #73351f;
+.button-light>a:visited {
+    color: #73351f;
 }
 
 /* To indicate to user which page they are on */
 .current-page {
-  border-bottom: 1px solid #ffe7d6;
+    border-bottom: 1px solid #ffe7d6;
 }
 
 /* Navbar styles with dropdown toggle - code borrowed from Code Institute's Love Running project */
 nav {
-  position: absolute;
-  background-color: #73351f;
-  width: 100vw;
-  display: none;
-  top: 100%;
+    position: absolute;
+    background-color: #73351f;
+    width: 100vw;
+    display: none;
+    top: 100%;
 }
 
 /* Nav toggle */
-#nav-toggle:checked ~ nav {
-  display: block;
+#nav-toggle:checked~nav {
+    display: block;
 }
 
 #nav-toggle {
-  display: none;
+    display: none;
 }
 
 .nav-toggle-label {
-  font-size: 125%;
-  padding-right: 20px;
-  color: #ffe7d6;
+    font-size: 125%;
+    padding-right: 20px;
+    color: #ffe7d6;
 }
 
 /*To make the navigation toggle accesible, making content visible to screen readers only but not visually
 Credit: https: //css-tricks.com/inclusively-hidden/ */
 .sr-only:not(:focus):not(:active) {
-  clip: rect(0 0 0 0);
-  clip-path: inset(50%);
-  height: 1px;
-  overflow: hidden;
-  position: absolute;
-  white-space: nowrap;
-  width: 1px;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
 }
 
 /* Main content */
 main {
-  line-height: 1.6;
-  background-color: #ffe7d6;
-  flex: 1 0 auto;
-  margin-top: 55px;
-  /* To allow child elements to have flexbox properties */
-  display: flex;
-  flex-direction: column;
+    line-height: 1.6;
+    background-color: #ffe7d6;
+    flex: 1 0 auto;
+    margin-top: 55px;
+    /* To allow child elements to have flexbox properties */
+    display: flex;
+    flex-direction: column;
 }
 
 /* Hero image styling */
 #dubai-hero-image {
-  background: url("../images/dubai-hero.webp") #ffe7d6 no-repeat center center /
-    cover;
-  width: 100%;
-  height: 700px;
-  position: relative;
+    background: url("../images/dubai-hero.webp") #ffe7d6 no-repeat center center / cover;
+    width: 100%;
+    height: 700px;
+    position: relative;
 }
 
 /* Cover text styling */
 #hero-cover-text {
-  width: 65%;
-  background-color: rgb(255, 231, 214, 0.7);
-  text-align: center;
-  position: absolute;
-  bottom: 15%;
-  padding: 15px 20px;
-  box-shadow: 5px 5px 8px black;
-  border-radius: 2px;
-  /* Horizontally centre the div when position: absolute;
+    width: 65%;
+    background-color: rgb(255, 231, 214, 0.7);
+    text-align: center;
+    position: absolute;
+    bottom: 15%;
+    padding: 15px 20px;
+    box-shadow: 5px 5px 8px black;
+    border-radius: 2px;
+    /* Horizontally centre the div when position: absolute;
     code credit: https: //codedamn.com/news/frontend/horizontal-alignment-in-css */
-  left: 50%;
-  transform: translateX(-50%);
+    left: 50%;
+    transform: translateX(-50%);
 }
 
-#hero-cover-text > h2 {
-  text-align: left;
-  padding-bottom: 5px;
-  font-size: 150%;
+#hero-cover-text>h2 {
+    text-align: left;
+    padding-bottom: 5px;
+    font-size: 150%;
 }
 
-#hero-cover-text > hr {
-  background-color: rgb(255, 231, 214, 0.6);
-  border-color: #73351f;
+#hero-cover-text>hr {
+    background-color: rgb(255, 231, 214, 0.6);
+    border-color: #73351f;
 }
 
-#hero-cover-text > h3 {
-  font-size: 125%;
-  font-weight: 500;
-  text-align: right;
-  padding-top: 5px;
+#hero-cover-text>h3 {
+    font-size: 125%;
+    font-weight: 500;
+    text-align: right;
+    padding-top: 5px;
 }
 
 /* Introduction styling */
-#introduction > h2 {
-  text-align: center;
-  padding: 10px 7px 7px;
+#introduction>h2 {
+    text-align: center;
+    padding: 10px 7px 7px;
 }
 
-#introduction > hr {
-  border: solid 2px rgba(115, 53, 31, 0.7);
-  width: 85%;
-  margin: 0 auto;
+#introduction>hr {
+    border: solid 2px rgba(115, 53, 31, 0.7);
+    width: 85%;
+    margin: 0 auto;
 }
 
 /* Main content styling */
 .page-header {
-  text-align: center;
-  padding: 20px 20px 10px;
-  text-decoration: underline;
-  font-size: 170%;
+    text-align: center;
+    padding: 20px 20px 10px;
+    text-decoration: underline;
+    font-size: 170%;
 }
 
 .line-style {
-  border: solid 1px #73351f;
+    border: solid 1px #73351f;
 }
 
 .section-header {
-  padding: 15px 20px;
-  font-size: 125%;
+    padding: 15px 10%;
+    font-size: 125%;
 }
 
 .paragraph {
-  padding: 5px 25px;
-  font-size: 1.2rem;
+    padding: 5px 10%;
+    font-size: 1.2rem;
 }
 
 
 .pictures {
-  /* Scales down the image if needed but image will never exceed it's full width - code from https: //www.w3schools.com/css/css3_images.asp */
-  max-width: 100%;
-  height: auto;
+    /* Scales down the image if needed but image will never exceed it's full width - code from https: //www.w3schools.com/css/css3_images.asp */
+    max-width: 100%;
+    height: auto;
 }
 
 /* To align any pictures in the centre of the page */
@@ -235,9 +234,9 @@ main {
 
 /*To align captions centrally and change the colour of the text to distinguish it from the main content */
 .caption {
-  color: #292929;
-  text-align: center;
-  padding: 0 15px 5px;
+    color: #292929;
+    text-align: center;
+    padding: 0 15px 5px;
 }
 
 /* To make the youtube video responsive - tutorial from https: //www.avexdesigns.com/blog/responsive-youtube-embed/ */
@@ -251,7 +250,9 @@ main {
     margin: 0 auto;
 }
 
-.video-container iframe, video-container object, .video-container embed {
+.video-container iframe,
+video-container object,
+.video-container embed {
     position: absolute;
     top: 0;
     left: 0;
@@ -261,10 +262,9 @@ main {
 
 /*Contact form page */
 #contact-page-image {
-  background: url("../images/dubai-contact-page.webp") no-repeat fixed 45%
-    center/cover;
-  width: 100%;
-  height: 100vh;
+    background: url("../images/dubai-contact-page.webp") no-repeat fixed 45% center/cover;
+    width: 100%;
+    height: 100vh;
 }
 
 /* Contact form styling */
@@ -279,295 +279,329 @@ main {
 
 /* Styling of the text at the start of the form page */
 #form-header {
-  border-bottom: solid 1px #73351f;
-  padding-bottom: 5px;
-  text-align: center;
+    border-bottom: solid 1px #73351f;
+    padding-bottom: 5px;
+    text-align: center;
 }
 
-#form-header > h2 {
-  padding-bottom: 5px;
+#form-header>h2 {
+    padding-bottom: 5px;
 }
 
-#form-header > p {
-  line-height: 1.1rem;
-  font-size: 1.25rem;
-  padding-bottom: 3px;
+#form-header>p {
+    line-height: 1.1rem;
+    font-size: 1.25rem;
+    padding-bottom: 3px;
 }
 
 /* Contact form styling */
 
 #contact-details {
-  padding-bottom: 10px;
-  border-bottom: solid 1px #73351f;
+    padding-bottom: 10px;
+    border-bottom: solid 1px #73351f;
 }
 
 #contact-details p {
-  font-weight: 700;
-  text-decoration: underline;
+    font-weight: 700;
+    text-decoration: underline;
 }
 
 .text-input {
-  width: 100%;
-  height: 20px;
-  padding: 0px 5px;
-  border: 1px solid #73351f;
+    width: 100%;
+    height: 20px;
+    padding: 0px 5px;
+    border: 1px solid #73351f;
 }
 
 .text-input:focus {
-  background-color: rgba(0, 178, 255, 0.5);
+    background-color: rgba(0, 178, 255, 0.5);
 }
 
 #radio-optional {
-  padding-bottom: 10px;
-  border-bottom: solid 1px #73351f;
+    padding-bottom: 10px;
+    border-bottom: solid 1px #73351f;
 }
 
-#radio-optional > p {
-  font-weight: 700;
-  text-decoration: underline;
+#radio-optional>p {
+    font-weight: 700;
+    text-decoration: underline;
 }
 
 /* Code taken from Code Institute's Love Running project */
 #radio-buttons {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
 }
 
 #contact-form-message {
-  border: 1px solid #73351f;
-  width: 100%;
+    border: 1px solid #73351f;
+    width: 100%;
 }
 
 /* To center the form buttons at the bottom of the page */
 #form-buttons {
-  text-align: center;
+    text-align: center;
 }
 
 .button-dark {
-  background-color: #73351f;
-  color: #ffe7d6;
-  border: none;
-  border-radius: 3px;
-  padding: 5px 10px;
-  font-size: 1rem;
-  margin-top: 5px;
-  margin-right: 15px;
+    background-color: #73351f;
+    color: #ffe7d6;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 10px;
+    font-size: 1rem;
+    margin-top: 5px;
+    margin-right: 15px;
 }
 
 #clear-button {
-  background-color: black;
-  color: #00b2ff;
-  border: none;
-  border-radius: 3px;
-  padding: 5px 10px;
-  font-size: 1rem;
-  margin-top: 5px;
-  margin-left: 15px;
+    background-color: black;
+    color: #00b2ff;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 10px;
+    font-size: 1rem;
+    margin-top: 5px;
+    margin-left: 15px;
 }
 
 /* Hidden pages styling */
 .hidden-page {
-  margin: 10% 10% 0;
-  text-align: center;
+    margin: 10% 10% 0;
+    text-align: center;
 }
 
-.hidden-page > h2 {
-  padding-bottom: 10px;
-  letter-spacing: 1.5px;
+.hidden-page>h2 {
+    padding-bottom: 10px;
+    letter-spacing: 1.5px;
 }
 
-.hidden-page > p {
-  text-align: center;
-  line-height: 1.2rem;
-  padding-bottom: 20px;
+.hidden-page>p {
+    text-align: center;
+    line-height: 1.2rem;
+    padding-bottom: 20px;
 }
 
-.hidden-page > button {
-  font-size: 1.25rem;
+.hidden-page>button {
+    font-size: 1.25rem;
 }
 
 /* Footer */
 footer {
-  background-color: #73351f;
-  color: #ffe7d6;
-  width: 100vw;
+    background-color: #73351f;
+    color: #ffe7d6;
+    width: 100vw;
 }
 
 /* Social media icon styling */
 
 #social-media-icons {
-  display: flex;
-  justify-content: space-evenly;
-  font-size: 150%;
-  padding: 15px 0px 5px 0px;
-  align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 150%;
+    padding: 15px 0px 5px 0px;
+    align-items: center;
 }
 
 /* Styling of the copyright text */
 
-footer > p {
-  text-align: center;
-  padding-bottom: 10px;
-  font-size: 75%;
+footer>p {
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 75%;
 }
 
 /* Media query for screens of width 768px and above */
 @media screen and (min-width: 768px) {
-  /* Header */
+    /* Header */
 
-  header {
-    align-items: flex-end;
-  }
+    header {
+        align-items: flex-end;
+    }
 
-  nav {
-    display: block;
-    position: relative;
-    width: fit-content;
-    padding-right: 2rem;
-  }
+    nav {
+        display: block;
+        position: relative;
+        width: fit-content;
+        padding-right: 2rem;
+    }
 
-  /* Make header logo larger on larger screens */
-  #legacy-dubai-header {
-    font-size: 2.2rem;
-  }
+    /* Make header logo larger on larger screens */
+    #legacy-dubai-header {
+        font-size: 2.2rem;
+    }
 
-  /* To allow the navigation links to appear in a row on larger screens */
-  #nav-links {
-    flex-direction: row;
-  }
+    /* To allow the navigation links to appear in a row on larger screens */
+    #nav-links {
+        flex-direction: row;
+    }
 
-  #nav-links > li {
-    padding-left: 20px;
-  }
+    #nav-links>li {
+        padding-left: 20px;
+    }
 
-  .nav-toggle-label {
-    display: none;
-  }
+    .nav-toggle-label {
+        display: none;
+    }
 
-  /* Main content */
+    /* Main content */
 
-  /* To push down content so that the larger header on larger screens does not cover the main content */
-  main {
-    margin-top: 63px;
-  }
+    /* To push down content so that the larger header on larger screens does not cover the main content */
+    main {
+        margin-top: 63px;
+    }
 
-  /* Make the hero cover image text responsive */
-  #hero-cover-text {
-    width: 40%;
-    height: 125px;
-    top: 10%;
-    left: 75%;
-    box-shadow: 5px 5px 8px rgba(255, 248, 220, 0.5);
-  }
+    /* Make the hero cover image text responsive */
+    #hero-cover-text {
+        width: 40%;
+        height: 125px;
+        top: 10%;
+        left: 75%;
+        box-shadow: 5px 5px 8px rgba(255, 248, 220, 0.5);
+    }
 
-  /* To move the picture to the left on bigger screens to make use of the horizontal space available */
-  #trucial-states-flag {
-    float: left;
-    max-width: 320px;
-    padding: 5px 15px 0 25px;
-  }
+    #introduction>h2 {
+        font-size: 2rem;
+    }
 
-  /* Make the contact form responsive */
-  #contact-form {
-    max-width: 500px;
-    margin: 40px auto;
-  }
+    /* To make text bigger on tablet screens */
+    .page-header {
+        font-size: 185%;
+    }
 
-  #radio-buttons {
-    display: flex;
-    justify-content: space-between;
-  }
+    .section-header {
+        font-size: 140%;
+    }
 
-  #contact-form-message {
-    width: 100%;
-  }
+    .paragraph {
+        font-size: 1.38rem;
+    }
 
-  /* Footer */
+    /* To move the picture to the left on bigger screens to make use of the horizontal space available */
+    #trucial-states-flag {
+        float: left;
+        max-width: 320px;
+        padding: 5px 15px 0 25px;
+    }
 
-  /* To make the icons less stretched out in the footer and center them horizontally */
-  #social-media-icons {
-    width: 50%;
-    transform: translateX(50%);
-  }
+    /* Make the contact form responsive */
+    #contact-form {
+        max-width: 500px;
+        margin: 40px auto;
+    }
 
-  #social-media-icons i {
-    font-size: 135%;
-  }
+    #radio-buttons {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #contact-form-message {
+        width: 100%;
+    }
+
+    /* Footer */
+
+    /* To make the icons less stretched out in the footer and center them horizontally */
+    #social-media-icons {
+        width: 50%;
+        transform: translateX(50%);
+    }
+
+    #social-media-icons i {
+        font-size: 135%;
+    }
 }
 
 /* Media query for laptop screens size 992px and above */
 @media screen and (min-width: 992px) {
-  /* Header */
+    /* Header */
 
-  /* Pushes logo to left and nav links to right to make use of the horizontal space on laptop/desktop screens */
-  #legacy-dubai-logo {
-    justify-content: flex-start;
-  }
+    /* Pushes logo to left and nav links to right to make use of the horizontal space on laptop/desktop screens */
+    #legacy-dubai-logo {
+        justify-content: flex-start;
+    }
 
-  #nav-links {
-    justify-content: flex-end;
-  }
+    #nav-links {
+        justify-content: flex-end;
+    }
 
-  /* To indicate to the user that the nav links are clickable */
-  #nav-links a:hover {
-    border-bottom: 1px solid #ffe7d6;
-  }
+    /* To indicate to the user that the nav links are clickable */
+    #nav-links a:hover {
+        border-bottom: 1px solid #ffe7d6;
+    }
 
-  /* Hover styling for contact us button */
-  #contact-button:hover {
-    background-color: #00b2ff;
-    color: black;
-    border: 1px solid black;
-  }
+    /* Hover styling for contact us button */
+    #contact-button:hover {
+        background-color: #00b2ff;
+        color: black;
+        border: 1px solid black;
+    }
 
-  .button-light > a:visited {
-    color: black;
-  }
+    .button-light>a:visited {
+        color: black;
+    }
 
-  #contact-button > a:hover {
-    border: none;
-  }
+    #contact-button>a:hover {
+        border: none;
+    }
 
-  /* Main content */
+    /* Main content */
 
-  /* Make the hero cover text div slightly smaller on big screens */
-  #hero-cover-text {
-    width: 30%;
-  }
+    /* Make the hero cover text div slightly smaller on big screens */
+    #hero-cover-text {
+        width: 30%;
+    }
 
-  /* To remove the horizontal scroll bar on laptop screens */
-  body {
-    overflow-x: hidden;
-  }
+    /* To remove the horizontal scroll bar on laptop screens */
+    body {
+        overflow-x: hidden;
+    }
 
-  /* Contact form styling */
+    #introduction>h2 {
+        font-size: 3rem;
+    }
 
-  /* To indicate to user that there is some responsivity with the form buttons */
-  .button-dark:hover {
-    background-color: #ffe7d6;
-    color: #73351f;
-    border: 1px solid #73351f;
-  }
+    /* To make text bigger on laptop screens */
+    .page-header {
+        font-size: 210%;
+    }
 
-  #clear-button:hover {
-    background-color: #00b2ff;
-    color: black;
-    border: 1px solid black;
-  }
+    .section-header {
+        font-size: 160%;
+    }
 
-  /* Thank you page home button */
-  .button-dark > a:visited {
-    color: #ffe7d6;
-  }
+    .paragraph {
+        font-size: 1.55rem;
+    }
 
-  .button-dark > a:hover {
-    color: #73351f;
-  }
+    /* Contact form styling */
 
-  /* Footer */
-  /* Add hover styling to social media links */
-  #social-media-icons > span > a:hover {
-    border-bottom: 1px solid #ffe7d6;
-  }
+    /* To indicate to user that there is some responsivity with the form buttons */
+    .button-dark:hover {
+        background-color: #ffe7d6;
+        color: #73351f;
+        border: 1px solid #73351f;
+    }
+
+    #clear-button:hover {
+        background-color: #00b2ff;
+        color: black;
+        border: 1px solid black;
+    }
+
+    /* Thank you page home button */
+    .button-dark>a:visited {
+        color: #ffe7d6;
+    }
+
+    .button-dark>a:hover {
+        color: #73351f;
+    }
+
+    /* Footer */
+    /* Add hover styling to social media links */
+    #social-media-icons>span>a:hover {
+        border-bottom: 1px solid #ffe7d6;
+    }
 }
