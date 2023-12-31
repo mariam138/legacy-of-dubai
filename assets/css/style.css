@@ -245,11 +245,13 @@ main {
     position: relative;
     padding-bottom: 56.25%;
     padding-top: 30px;
+    max-width: 75%;
     height: 0;
     overflow: hidden;
+    margin: 0 auto;
 }
 
-.video-container iframe {
+.video-container iframe, video-container object, .video-container embed {
     position: absolute;
     top: 0;
     left: 0;
@@ -259,11 +261,20 @@ main {
 
 /*Contact form page */
 #contact-page-image {
-  background: url("../images/dubai-contact-page.webp") no-repeat 45%
+  background: url("../images/dubai-contact-page.webp") no-repeat fixed 45%
     center/cover;
   width: 100%;
-  height: 700px;
-  position: relative;
+  height: 100vh;
+}
+
+/* Contact form styling */
+#contact-form {
+    margin: 20px 10%;
+    background-color: rgba(255, 231, 214, 0.6);
+    padding: 25px;
+    border: 1px solid #73351f;
+    border-radius: 3px;
+    box-shadow: 5px 5px 5px rgb(40, 38, 38);
 }
 
 /* Styling of the text at the start of the form page */
@@ -284,15 +295,6 @@ main {
 }
 
 /* Contact form styling */
-
-#contact-form {
-  margin: 20px 10% 0 10%;
-  background-color: rgba(255, 231, 214, 0.6);
-  padding: 25px;
-  border: 1px solid #73351f;
-  border-radius: 3px;
-  box-shadow: 5px 5px 5px rgb(40, 38, 38);
-}
 
 #contact-details {
   padding-bottom: 10px;
@@ -466,16 +468,9 @@ footer > p {
   }
 
   /* Make the contact form responsive */
-  #contact-page-image {
-    background-position: center center;
-    background-size: cover;
-  }
-
   #contact-form {
-    position: absolute;
     max-width: 500px;
-    margin-top: 40px;
-    right: -5%;
+    margin: 40px auto;
   }
 
   #radio-buttons {
