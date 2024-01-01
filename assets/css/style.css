@@ -602,6 +602,13 @@ footer>p {
         font-size: 1.4rem;
     }
 
+    /* To align image to the right side of the page */
+    #newspaper-uae-inauguration {
+        float: right;
+        max-width: 550px;
+        padding: 5px 8% 0 5px;
+    }
+
     /* Contact form styling */
 
     /* To make the text on the contact form appear larger on larger screens */
@@ -656,11 +663,7 @@ footer>p {
         font-size: 2.75rem;
     }
 
-    .hidden-page>p {
-        font-size: 1.5rem;
-    }
-
-    .hidden-page>button {
+    .hidden-page>p, .hidden-page>button {
         font-size: 1.5rem;
     }
 
