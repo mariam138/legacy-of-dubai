@@ -12,7 +12,7 @@
 - As the orgaaisation we want to promote our social media channels
 
 ## Design
-### Fonts
+### Typography
 
 The header fonts have been set to **Montserrat** for a clean but slightly regal look. As it is a part of the sans serif family, it also allows accessibility for those with visual impairments. I used [fontjoy.com](fontjoy.com) to help pair a similar font to **Montserrat** to be used for the body of the text. The font that was generated was **Mukta**, keeping the theme cohesive, but allowing the pages to still be clean and readable.
 ![Screenshot 2023-12-19 at 21 53 19](https://github.com/mariam138/legacy-of-dubai/assets/150139337/16e55cef-8427-4a0b-b133-d1b277a4bd44)
@@ -81,7 +81,7 @@ There is also overlay text which reinforces the website's name, and also provide
 
 ### Contact Form Page
 
-The contact form page has a different hero image this time, one of the Burj al Arab, another famoud landmark of Dubai. 
+The contact form page has a different hero image this time, one of the Burj al Arab, another famous landmark of Dubai. 
 
 The contact form has been placed over the image but given some transparency to allow the picture of the Burj al Arab to still show through behind. 
 
@@ -89,6 +89,9 @@ The contact form allows the user to contact the author <!--?--> about any questi
 
 ![Screenshot 2023-12-25 at 20 29 11](https://github.com/mariam138/legacy-of-dubai/assets/150139337/3504b4df-8913-41bf-8f9c-170993243706)
 
+### Future Features
+
+-In the future, I would like to add another page which discusses Dubai's future goals and projects, as they are constantly evolving and changing. For example, a new high-speed train is being developed, which will run between all 7 emirates and be the first to do so.  
 
 ## Testing
 
