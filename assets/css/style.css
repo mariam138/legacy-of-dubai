@@ -230,7 +230,7 @@ main {
 .caption {
     color: #292929;
     text-align: center;
-    padding: 0 15px 5px;
+    padding: 0 10% 5px;
 }
 
 /* To make the youtube video responsive - tutorial from https: //www.avexdesigns.com/blog/responsive-youtube-embed/ */
