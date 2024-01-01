@@ -91,9 +91,12 @@ The contact form allows the user to contact the author <!--?--> about any questi
 
 ### Future Features
 
--In the future, I would like to add another page which discusses Dubai's future goals and projects, as they are constantly evolving and changing. For example, a new high-speed train is being developed, which will run between all 7 emirates and be the first to do so.  
+-In the future, I would like to add another page which discusses Dubai's future goals and projects, as they are constantly evolving and changing. For example, a new high-speed train is being developed, which will run between all 7 emirates and be the first to do so.
+-Another feature would be to implement a gallery page with photos of the famous landmarks in Dubai, or before/now pictures. 
 
 ## Testing
+
+## Validator Testing
 
 ### Bug Fixes
 
@@ -121,6 +124,10 @@ The contact form allows the user to contact the author <!--?--> about any questi
 6. For the contact form, I used a **textarea** element for the "Your message" part of the form. I set the width and height using the **cols** and **rows** attributes in the html tag. On larger screens, this was fine. But on smaller screens, such as on mobile screens, the text area would overflow over the actual contact form itself. 
 ![Screenshot 2023-12-31 at 19 04 55](https://github.com/mariam138/legacy-of-dubai/assets/150139337/4a78bf24-7fdd-4c54-af14-f43b51cc383d)
 By setting the width of the text area to 100%, this allowed it to stay within the contact form divider at all screen sizes.
+
+## Deployment
+
+
 
 ## Credits
 ### Content
