@@ -126,7 +126,12 @@ The contact form allows the user to contact the author <!--?--> about any questi
 By setting the width of the text area to 100%, this allowed it to stay within the contact form divider at all screen sizes.
 
 ## Deployment
-
+The site was deployed onto GitHub pages near the start of the project. The steps to deploy are as follows:
+    1. On the repository page for the project on GitHub, click on **Settings**
+    2. On the left hand side of the pape, click the **Pages** link
+    3. Under the **Branch** sub-heading, select **main** as the branch and click save
+    4. Once selected, navigate back to the **Code** tab at the top
+    5. Wait for a few minutes before refreshing the page to view the deployed site
 
 
 ## Credits
