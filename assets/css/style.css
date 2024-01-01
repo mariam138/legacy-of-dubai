@@ -8,13 +8,6 @@
     box-sizing: border-box;
 }
 
-/* Override default link styling */
-a:link,
-a:visited {
-    text-decoration: none;
-    color: #ffe7d6;
-}
-
 h1,
 h2,
 h3 {
@@ -27,6 +20,13 @@ body {
     display: flex;
     flex-direction: column;
     font-family: Mukta, sans-serif;
+}
+
+/* Override default link styling */
+a:link,
+a:visited {
+    text-decoration: none;
+    color: #ffe7d6;
 }
 
 /* Header */
