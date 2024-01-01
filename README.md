@@ -95,8 +95,17 @@ The contact form allows the user to contact the author <!--?--> about any questi
 -Another feature would be to implement a gallery page with photos of the famous landmarks in Dubai, or before/now pictures. 
 
 ## Testing
+### Validation of Code
 
-## Validator Testing
+### Lighthouse
+I used Lighthouse on Chrome's DevTools to test the website's performance on both Mobile and Desktop.
+
+-The initial report for mobile gave a performance score of 62 which was due to the sizewof the front page's hero image. 
+<!-- Make sure to optimise image further for smaller screens -->
+
+-For the desktop, no issues were raised by the performance test.
+![Screenshot 2024-01-01 at 21 19 07](https://github.com/mariam138/legacy-of-dubai/assets/150139337/1408e869-9af4-4331-bef1-76df50a30529)
+
 
 ### Bug Fixes
 
@@ -144,12 +153,15 @@ The site was deployed onto GitHub pages near the start of the project. The steps
 - The image of Sheikh Rashid discovering oil is from [dubaiasitusedtobe.net](https://dubaiasitusedtobe.net/SheikhRashidsOil1966.shtml)
 - The newspaper image on the *Modern Day* page is from the [Arabian Gulf Digital Archive](https://www.agda.ae/en/folder/50-years-formation-united-arab-emirates)
 - The picture of the first Emirates flight is from [Gulf News](https://gulfnews.com/today-history/october-25-1985-emirates-makes-a-good-start-1.1606067)
-- The video of Dubai's development is from [Knight Frank on Youtube]
+- The video of Dubai's development is from [Knight Frank on Youtube](https://youtu.be/voN9imXg6xM)
 
 ### Code
 
-- The template code to insert the favicon is from [W3S Schools](https://www.w3schools.com/html/html_favicon.asp)
+#### Code Institute
 - The code to create a sticky header and push the footer to the bottom is from the [Code Institute Love Running project](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LRFX101+2023_Q2/courseware/e805068059af42af87681032aa64053f/7525117e5cd144daa2a7b0c57843bbee/)
 - The code to create the dropdown toggle for mobile navigation is from the [Code Institute Love Running project](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LRFX101+2023_Q2/courseware/e805068059af42af87681032aa64053f/7525117e5cd144daa2a7b0c57843bbee/)
+
+#### Other Sources
+- The template code to insert the favicon is from [W3S Schools](https://www.w3schools.com/html/html_favicon.asp)
 - The code to make the toggle on the mobile navbar accesssible is from [css-tricks](https://css-tricks.com/inclusively-hidden/)
 
