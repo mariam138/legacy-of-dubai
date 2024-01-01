@@ -331,6 +331,7 @@ video-container object,
 #contact-form-message {
     border: 1px solid #73351f;
     width: 100%;
+    font-family: Mukta, sans-serif;
 }
 
 /* To center the form buttons at the bottom of the page */
@@ -621,7 +622,7 @@ footer>p {
     }
 
     #contact-form-message {
-        font-size: 1rem;
+        font-size: 1.15rem;
     }
 
     /* To indicate to user that there is some responsivity with the form buttons */
