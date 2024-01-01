@@ -2,6 +2,13 @@
 ## Introduction
 **Legacy of Dubai** is a website which goes into depth on the history of Dubai, from its beginnings as a Dessert emirate into the luxurious, glamorous City we know of today. The site is targetted towards people who want to learn more about Dubai and its rich history, especially those who are planning to visit Dubai or have already done so. **Legacy of Dubai** will be a useful site for tourists and non-tourists alike who take great interest in Middle Eastern history and culture.
 
+## User Stories
+- As a user I want to find out about the history of Dubai
+- As a user I want to know how the discovery of oil impacted Dubai's development
+- As a user I want to be able to contact someone easily with some more questions about Dubai for my own travels
+- As the organisation we want to highlight the history of Dubai to all users
+- As the orgaaisation we want to promote our social media channels
+
 ## Design
 ### Fonts
 

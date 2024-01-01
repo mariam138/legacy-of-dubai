@@ -1,134 +1,193 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description"
-        content="Learn about the history of Dubai and how it became the urban landscape it's known to be from the dessert landscape it used to be." />
-    <meta name="keywords" content="Dubai, Dubai history, United Arab Emirates, UAE" />
+    <meta
+      name="description"
+      content="Learn about the history of Dubai and how it became the urban landscape it's known to be from the dessert landscape it used to be."
+    />
+    <meta
+      name="keywords"
+      content="Dubai, Dubai history, United Arab Emirates, UAE"
+    />
     <meta name="author" content="Mariam Ayoub" />
     <title>Legacy of Dubai: From Sands to Skyscrapers</title>
     <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
 
     <!-- Favicons - burj al arab icon by Icons8 -->
-    <link rel="icon" type="image/x-icon"
-        href="assets/favicons/icons8-burj-al-arab-goofy-solid-favicons/Android Chrome/icons8-burj-al-arab-goofy-solid-96.png" />
-    <link rel="icon" type="image/x-icon"
-        href="assets/favicons/icons8-burj-al-arab-goofy-solid-favicons/iOS Safari Web Clip/icons8-burj-al-arab-goofy-solid-76.png" />
-    <link rel="icon" type="image/x-icon"
-        href="assets/favicons/icons8-burj-al-arab-goofy-solid-favicons/Web/icons8-burj-al-arab-goofy-solid-96.png" />
-    <link rel="icon" type="image/x-icon"
-        href="assets/favicons/icons8-burj-al-arab-goofy-solid-favicons/Windows/icons8-burj-al-arab-goofy-solid-70.png>" />
-</head>
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="assets/favicons/icons8-burj-al-arab-goofy-solid-favicons/Android Chrome/icons8-burj-al-arab-goofy-solid-96.png"
+    />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="assets/favicons/icons8-burj-al-arab-goofy-solid-favicons/iOS Safari Web Clip/icons8-burj-al-arab-goofy-solid-76.png"
+    />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="assets/favicons/icons8-burj-al-arab-goofy-solid-favicons/Web/icons8-burj-al-arab-goofy-solid-96.png"
+    />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="assets/favicons/icons8-burj-al-arab-goofy-solid-favicons/Windows/icons8-burj-al-arab-goofy-solid-70.png>"
+    />
+  </head>
 
-<body>
+  <body>
     <header>
-        <div id="legacy-dubai-logo">
-            <div id="uae-flag-icon">
-            </div>
-            <a href="index.html">
-                <h1 id="legacy-dubai-header">Legacy of Dubai</h1>
+      <div id="legacy-dubai-logo">
+        <div id="uae-flag-icon"></div>
+        <a href="index.html">
+          <h1 id="legacy-dubai-header">Legacy of Dubai</h1>
+        </a>
+      </div>
+      <input
+        type="checkbox"
+        id="nav-toggle"
+        name="nav-toggle"
+        class="sr-only:not(:focus):not(:active)"
+      />
+      <label for="nav-toggle" class="nav-toggle-label">
+        <i class="fa-solid fa-bars"></i>
+      </label>
+      <nav>
+        <ul id="nav-links">
+          <li>
+            <a href="origins.html">Origins</a>
+          </li>
+          <li>
+            <a href="modern-day.html">Modern Day</a>
+          </li>
+          <li>
+            <a href="contact-form.html">
+              <button class="button-light" id="contact-button">
+                Contact Us
+              </button>
             </a>
-        </div>
-        <input type="checkbox" id="nav-toggle" name="nav-toggle" class="sr-only:not(:focus):not(:active)">
-        <label for="nav-toggle" class="nav-toggle-label">
-            <i class="fa-solid fa-bars"></i>
-        </label>
-        <nav>
-            <ul id="nav-links">
-                <li>
-                    <a href="origins.html">Origins</a>
-                </li>
-                <li>
-                    <a href="modern-day.html">Modern Day</a>
-                </li>
-                <li>
-                    <button class="button-light" id="contact-button">
-                        <a href="contact-form.html">Contact Us</a>
-                    </button>
-                </li>
-            </ul>
-        </nav>
+          </li>
+        </ul>
+      </nav>
     </header>
 
     <main>
-        <section id="contact-page-image">
-            <div id="contact-form">
-                <form action="thank-you.html" method="get">
-                    <div id="form-header">
-                        <h2>Any queries?</h2>
-                        <p>Please fill out the form below to contact us.</p>
-                    </div>
-                    <div id="contact-details">
-                        <p>Please enter your contact details:</p>
-                        <label for="first-name">First Name:</label>
-                        <input type="text" id="first-name" class="text-input" required>
-                        <br>
-                        <label for="last-name">Last Name:</label>
-                        <input type="text" id="last-name" class="text-input" required>
-                        <br>
-                        <label for="email">Email Address:</label>
-                        <input type="email" name="email" id="email" class="text-input" required>
-                        <br>
-                    </div>
-
-                    <div id="radio-optional">
-                        <p>Have you visited Dubai before? (Optional)</p>
-                        <div id="radio-buttons">
-                            <div>
-                                <label for="yes">Yes</label>
-                                <input type="radio" id="yes" value="yes" name="visit-options">
-                            </div>
-                            <div>
-                                <label for="no">No</label>
-                                <input type="radio" id="no" value="no" name="visit-options">
-                            </div>
-                            <div>
-                                <label for="just-visited">I have visited recently</label>
-                                <input type="radio" name="visit-options" id="just-visited" value="just-visited">
-                            </div>
-                        </div>
-                        </div>
-                    
-                    <div id="contact-message">
-                        <p>Your message:</p>
-                        <label for="contact-form-message"></label>
-                        <textarea name="contact-message" id="contact-form-message" cols="30" rows="7"
-                            placeholder="Type your message here" required></textarea>
-                        <div id="form-buttons">
-                            <button class="button-dark">Submit</button>
-                            <button id="clear-button" type="reset">Clear</button>
-                        </div>
-                    </div>
-                </form>
+      <section id="contact-page-image">
+        <div id="contact-form">
+          <form action="thank-you.html" method="get">
+            <div id="form-header">
+              <h2>Any queries?</h2>
+              <p>Please fill out the form below to contact us.</p>
+            </div>
+            <div id="contact-details">
+              <p>Please enter your contact details:</p>
+              <label for="first-name">First Name:</label>
+              <input type="text" id="first-name" class="text-input" required />
+              <br />
+              <label for="last-name">Last Name:</label>
+              <input type="text" id="last-name" class="text-input" required />
+              <br />
+              <label for="email">Email Address:</label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                class="text-input"
+                required
+              />
+              <br />
             </div>
 
-        </section>
+            <div id="radio-optional">
+              <p>Have you visited Dubai before? (Optional)</p>
+              <div id="radio-buttons">
+                <div>
+                  <label for="yes">Yes</label>
+                  <input
+                    type="radio"
+                    id="yes"
+                    value="yes"
+                    name="visit-options"
+                  />
+                </div>
+                <div>
+                  <label for="no">No</label>
+                  <input type="radio" id="no" value="no" name="visit-options" />
+                </div>
+                <div>
+                  <label for="just-visited">I have visited recently</label>
+                  <input
+                    type="radio"
+                    name="visit-options"
+                    id="just-visited"
+                    value="just-visited"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <div id="contact-message">
+              <p>Your message:</p>
+              <label for="contact-form-message"></label>
+              <textarea
+                name="contact-message"
+                id="contact-form-message"
+                cols="30"
+                rows="7"
+                placeholder="Type your message here"
+                required
+              ></textarea>
+              <div id="form-buttons">
+                <button class="button-dark">Submit</button>
+                <button id="clear-button" type="reset">Clear</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </section>
     </main>
 
     <footer>
-        <div id="social-media-icons">
-            <span><a href="https://en-gb.facebook.com/" target="_blank"
-                    aria-label="Find us on Facebook (link opens in a new tab).">
-                    <i class="fa-brands fa-facebook"></i> </a></span>
-            <span><a href="https://twitter.com/" target="_blank" aria-label="Find us on X (link opens in a new tab).">
-                    <i class="fa-brands fa-x-twitter"></i>
-                </a>
-            </span>
-            <span><a href="https://www.instagram.com/" target="_blank"
-                    aria-label="Find us on Instagram (link opens in a new tab).">
-                    <i class="fa-brands fa-instagram"></i>
-                </a>
-            </span>
-        </div>
+      <div id="social-media-icons">
+        <span
+          ><a
+            href="https://en-gb.facebook.com/"
+            target="_blank"
+            aria-label="Find us on Facebook (link opens in a new tab)."
+          >
+            <i class="fa-brands fa-facebook"></i> </a
+        ></span>
+        <span
+          ><a
+            href="https://twitter.com/"
+            target="_blank"
+            aria-label="Find us on X (link opens in a new tab)."
+          >
+            <i class="fa-brands fa-x-twitter"></i>
+          </a>
+        </span>
+        <span
+          ><a
+            href="https://www.instagram.com/"
+            target="_blank"
+            aria-label="Find us on Instagram (link opens in a new tab)."
+          >
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+        </span>
+      </div>
 
-        <p>© Mariam Ayoub 2023</p>
+      <p>© Mariam Ayoub 2023</p>
     </footer>
 
     <!-- JS for Font Awesome icons -->
-    <script src="https://kit.fontawesome.com/dc26e02520.js" crossorigin="anonymous"></script>
-</body>
-
+    <script
+      src="https://kit.fontawesome.com/dc26e02520.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
