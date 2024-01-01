@@ -223,7 +223,7 @@ main {
 .center {
     display: block;
     margin: 0 auto;
-    padding: 10px 25px;
+    padding: 10px 10%;
 }
 
 /*To align captions centrally and change the colour of the text to distinguish it from the main content */
@@ -610,7 +610,6 @@ footer>p {
     }
 
     /* Contact form styling */
-
     /* To make the text on the contact form appear larger on larger screens */
     #form-header>h2 {
         font-size: 2rem;
