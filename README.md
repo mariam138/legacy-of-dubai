@@ -138,6 +138,13 @@ The site was deployed onto GitHub pages near the start of the project. The steps
 ### Content
 
 - The Burj Al Arab favicon is by [Icons8](<https://icons8.com/icon/RnOkEfOBUH9P/burj-al-arab>)
+- The Burj Khalifa and Burj al Arab hero images are from [pxhere](https://pxhere.com/)
+- The Dubai Creek image on the *Origins* page is from [MonoVisions](https://monovisions.com/vintage-pre-oil-era-in-dubai-1960s/)
+- The image of the Trucial States flag is from [ozoutback.com](https://ozoutback.com.au/the%20United%20Arab%20Emirates/flags/slides/05_trucialcoast.html)
+- The image of Sheikh Rashid discovering oil is from [dubaiasitusedtobe.net](https://dubaiasitusedtobe.net/SheikhRashidsOil1966.shtml)
+- The newspaper image on the *Modern Day* page is from the [Arabian Gulf Digital Archive](https://www.agda.ae/en/folder/50-years-formation-united-arab-emirates)
+- The picture of the first Emirates flight is from [Gulf News](https://gulfnews.com/today-history/october-25-1985-emirates-makes-a-good-start-1.1606067)
+- The video of Dubai's development is from [Knight Frank on Youtube]
 
 ### Code
 
