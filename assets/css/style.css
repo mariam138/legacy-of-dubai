@@ -477,7 +477,7 @@ footer>p {
     /* To move the picture to the left on bigger screens to make use of the horizontal space available */
     #trucial-states-flag {
         float: left;
-        max-width: 385px;
+        max-width: 500px;
         padding: 5px 5px 0 8%;
     }
 
