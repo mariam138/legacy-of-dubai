@@ -541,6 +541,11 @@ footer>p {
         border-bottom: 1px solid #ffe7d6;
     }
 
+    /* No underline when hovering on contact button as contact button has it's own hover styling */
+    #nav-links #contact:hover {
+        border-bottom: none;
+    }
+
     #contact-button {
         font-size: 85%;
     }
@@ -554,10 +559,6 @@ footer>p {
 
     .button-light>a:visited {
         color: black;
-    }
-
-    #contact-button>a:hover {
-        border: none;
     }
 
     /* Main content */
