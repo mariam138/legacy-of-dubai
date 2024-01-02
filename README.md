@@ -109,8 +109,8 @@ The second page is a 404 page. I have styled my own 404 page rather than rely on
 ### Lighthouse
 I used Lighthouse on Chrome's DevTools to test the website's performance on both Mobile and Desktop.
 
-- The initial report for mobile gave a performance score of 62 which was due to the sizewof the front page's hero image. 
-<!-- Make sure to optimise image further for smaller screens -->
+- The initial report for mobile gave a performance score of 62 which was due to the size of the front page's hero image. After reducing the image size and optimising it for mobile, I ran the report again. No issues were raised after this change.
+![Screenshot 2024-01-02 at 12 08 58](https://github.com/mariam138/legacy-of-dubai/assets/150139337/cc1bcad3-799e-4b9a-903a-705dd62bf59a)
 
 - For the desktop, no issues were raised by the performance test.
 ![Screenshot 2024-01-01 at 21 19 07](https://github.com/mariam138/legacy-of-dubai/assets/150139337/1408e869-9af4-4331-bef1-76df50a30529)
