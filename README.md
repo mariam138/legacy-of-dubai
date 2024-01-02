@@ -89,10 +89,19 @@ The contact form allows the user to contact the author <!--?--> about any questi
 
 ![Screenshot 2023-12-25 at 20 29 11](https://github.com/mariam138/legacy-of-dubai/assets/150139337/3504b4df-8913-41bf-8f9c-170993243706)
 
+### Hidden Pages
+There are two hidden pages on the website. The first is a thank you page, which loads after submitting a form.
+![Screenshot 2024-01-02 at 11 58 35](https://github.com/mariam138/legacy-of-dubai/assets/150139337/70a78248-c0b0-4b8a-9bda-a444c7f0cbba) 
+
+The second page is a 404 page. I have styled my own 404 page rather than rely on the one provided by GitHub. This page will load if an incorrect address is typed into the address bar.
+![Screenshot 2024-01-02 at 12 00 46](https://github.com/mariam138/legacy-of-dubai/assets/150139337/72593752-a9af-4019-b0a6-6d30f9a3e5b4)
+
+
+
 ### Future Features
 
--In the future, I would like to add another page which discusses Dubai's future goals and projects, as they are constantly evolving and changing. For example, a new high-speed train is being developed, which will run between all 7 emirates and be the first to do so.
--Another feature would be to implement a gallery page with photos of the famous landmarks in Dubai, or before/now pictures. 
+- In the future, I would like to add another page which discusses Dubai's future goals and projects, as they are constantly evolving and changing. For example, a new high-speed train is being developed, which will run between all 7 emirates and be the first to do so.
+- Another feature would be to implement a gallery page with photos of the famous landmarks in Dubai, or before/now pictures. 
 
 ## Testing
 ### Validation of Code
@@ -100,10 +109,10 @@ The contact form allows the user to contact the author <!--?--> about any questi
 ### Lighthouse
 I used Lighthouse on Chrome's DevTools to test the website's performance on both Mobile and Desktop.
 
--The initial report for mobile gave a performance score of 62 which was due to the sizewof the front page's hero image. 
+- The initial report for mobile gave a performance score of 62 which was due to the sizewof the front page's hero image. 
 <!-- Make sure to optimise image further for smaller screens -->
 
--For the desktop, no issues were raised by the performance test.
+- For the desktop, no issues were raised by the performance test.
 ![Screenshot 2024-01-01 at 21 19 07](https://github.com/mariam138/legacy-of-dubai/assets/150139337/1408e869-9af4-4331-bef1-76df50a30529)
 
 
