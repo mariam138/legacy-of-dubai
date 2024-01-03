@@ -69,6 +69,10 @@ a:visited {
 }
 
 /*So that the text is still visible on the contact button after visiting the page */
+#contact-button:link {
+    color: #73351f;
+}
+
 #contact-button:visited {
     color: #73351f;
 }
