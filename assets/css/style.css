@@ -135,7 +135,7 @@ main {
     background-color: #ffe7d6;
     flex: 1 0 auto;
     margin-top: 44px;
-    /* To allow child elements to have flexbox properties */
+    /* To allow child elements to have flexbox properties - from CI Love Running project */
     display: flex;
     flex-direction: column;
 }
@@ -212,6 +212,7 @@ main {
     font-size: 125%;
 }
 
+/* Adding padding to the paragraph class to create a margin on the page, as changing the margin under the main element would affect the hero images */
 .paragraph {
     padding: 10px 10%;
     font-size: 1.2rem;
@@ -546,11 +547,6 @@ footer>p {
         border-bottom: 1px solid #ffe7d6;
     }
 
-    /* No underline when hovering on contact button as contact button has it's own hover styling */
-    #nav-links #contact:hover {
-        border-bottom: none;
-    }
-
     #contact-button {
         font-size: 85%;
     }
@@ -560,10 +556,6 @@ footer>p {
         background-color: #00b2ff;
         color: black;
         border: 1px solid black;
-    }
-
-    .button-light>a:visited {
-        color: black;
     }
 
     /* Main content */
