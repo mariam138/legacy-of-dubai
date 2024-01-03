@@ -112,6 +112,8 @@ The second page is a 404 page. I have styled my own 404 page rather than rely on
 
 ### Validation of Code
 
+Before checking the validation of the code on the deployed website, I checked the validity of the HTML and CSS frommy workspace using the [w3c Validator](https://validator.w3.org/) for any errors. Initially, for the **Contact Us** button, my html code was written so that the **button** element was wrapped in an anchor tag, and styling the button itself using css. When I ran the code through the validator, this showed up as an error saying that the button element must not be a descendant of the anchor tag. I found a blogpost on [sentry.io](https://sentry.io/answers/how-do-i-create-an-html-button-that-acts-like-a-link/) that explains that this is because of an accessibility issue. Instead, I left it as a link and used CSS to style it as a button, using the suggestion from the blogpost. When running through the vaiidator, this did not bring up any errors.
+
 ### Lighthouse
 
 I used Lighthouse on Chrome's DevTools to test the website's performance on both Mobile and Desktop.
