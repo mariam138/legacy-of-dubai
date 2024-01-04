@@ -219,6 +219,17 @@ main {
     padding: 0 10% 5px;
 }
 
+.top-of-page {
+    color: #73351f;
+    text-align: center;
+    font-size: 175%;
+    padding: 3%;
+}
+
+.top-of-page:visited {
+    color: #73351f;
+}
+
 /* Clamp attribute used to set a preferred width for the youtube video, but also make video responsive on the smaller and larger screens -
 code adapted from https: //www.geeksforgeeks.org/css-clamp-method/ */
 #youtube-video {
