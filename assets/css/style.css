@@ -239,15 +239,20 @@ main {
     padding: 0 10% 5px;
 }
 
+/* Clamp attribute used to set a preferred width for the youtube video, but also make video responsive on the smaller and larger screens -
+code adapted from https: //www.geeksforgeeks.org/css-clamp-method/ */
+#youtube-video {
+    max-width: clamp(250px, 80%, 1600px);
+    margin: 0 auto;
+}
+
 /* To make the youtube video responsive - tutorial from https: //www.avexdesigns.com/blog/responsive-youtube-embed/ */
 .video-container {
     position: relative;
     padding-bottom: 56.25%;
     padding-top: 30px;
-    max-width: 75%;
     height: 0;
     overflow: hidden;
-    margin: 0 auto;
 }
 
 .video-container iframe,
