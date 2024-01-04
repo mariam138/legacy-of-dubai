@@ -68,26 +68,6 @@ a:visited {
     color: #ffe7d6;
 }
 
-/*So that the text is still visible on the contact button after visiting the page */
-#contact-button:link, #contact-button:visited {
-    color: #73351f;
-}
-
-.button-light {
-    background-color: #ffe7d6;
-    color: #73351f;
-    border: none;
-    border-radius: 3px;
-    padding: 3px 8px;
-    font-size: 1rem;
-    margin-top: 5px;
-    margin-right: 15px;
-}
-
-.button-light>a:visited {
-    color: #73351f;
-}
-
 /* To indicate to user which page they are on */
 .current-page {
     border-bottom: 1px solid #ffe7d6;
@@ -450,6 +430,29 @@ footer>p {
 
     .nav-toggle-label {
         display: none;
+    }
+
+    /* Format the "Contact Us" link as a button on tablet screens and larger */
+
+    /*So that the text is still visible on the contact button after visiting the page */
+    #contact-button:link,
+    #contact-button:visited {
+        color: #73351f;
+    }
+
+    .button-light {
+        background-color: #ffe7d6;
+        color: #73351f;
+        border: none;
+        border-radius: 3px;
+        padding: 3px 8px;
+        font-size: 1rem;
+        margin-top: 5px;
+        margin-right: 15px;
+    }
+
+    .button-light>a:visited {
+        color: #73351f;
     }
 
     /* Main content */
