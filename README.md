@@ -1,11 +1,14 @@
-# Legacy of Dubai: From Sands to Skyscrapers
+<h1 id="page-top"> Legacy of Dubai: From Sands to Skyscrapers</h1>
 
-## Introduction
+## Introduction 
 
 **Legacy of Dubai** is a website which goes into depth on the history of Dubai, from its beginnings as a desert Emirate into the luxurious, glamorous Emirate we know of today. The site is targetted towards people who want to learn more about Dubai and its rich history, especially those who are planning to visit Dubai or have already done so. **Legacy of Dubai** will be a useful site for tourists and non-tourists alike who take great interest in Middle Eastern history and culture.
 
 ![Screenshot 2024-01-01 at 20 33 16](https://github.com/mariam138/legacy-of-dubai/assets/150139337/74850898-94fd-42ee-b0d7-8ba093611fcf)
 
+<p style="text-align: center; font-size: 20px;">
+    <a href="https://mariam138.github.io/legacy-of-dubai/">Visit the live site here!</a>
+    
 ## User Stories
 
 - As a user I want to find out about the history of Dubai
@@ -344,3 +347,5 @@ The information on the history of Dubai has been adapted from several sources.
 - The use of the clamp attribute with the youtube video has been adapted from [Geeks for Geeks](www.geeksforgeeks.org/css-clamp-method)
   
   All other code and text was created by myself.
+
+  <a href="#page-top" style="font-size: 20px; color: black;">Back to the top</a>
