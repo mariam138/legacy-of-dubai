@@ -112,7 +112,7 @@ The second page is a 404 page. I have styled my own 404 page rather than rely on
 
 ### Validation of Code
 
-Before checking the validation of the code on the deployed website, I checked the validity of the HTML and CSS frommy workspace using the [w3c Validator](https://validator.w3.org/) for any errors. Initially, for the **Contact Us** button, my html code was written so that the **button** element was wrapped in an anchor tag, and styling the button itself using css. When I ran the code through the validator, this showed up as an error saying that the button element must not be a descendant of the anchor tag. I found a blogpost on [sentry.io](https://sentry.io/answers/how-do-i-create-an-html-button-that-acts-like-a-link/) that explains that this is because of an accessibility issue. Instead, I left it as a link and used CSS to style it as a button, using the suggestion from the blogpost. When running through the vaiidator, this did not bring up any errors.
+Before checking the validation of the code on the deployed website, I checked the validity of the HTML and CSS frommy workspace using the [W3C Validator](https://validator.w3.org/) for any errors. Initially, for the **Contact Us** button, my html code was written so that the **button** element was wrapped in an anchor tag, and styling the button itself using css. When I ran the code through the validator, this showed up as an error saying that the button element must not be a descendant of the anchor tag. I found a blogpost on [sentry.io](https://sentry.io/answers/how-do-i-create-an-html-button-that-acts-like-a-link/) that explains that this is because of an accessibility issue. Instead, I left it as a link and used CSS to style it as a button, using the suggestion from the blogpost. When running through the vaiidator, this did not bring up any errors.
 
 Using the W3C HTML validatr, no errors were shown after validating each page on the website.
 - [index.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmariam138.github.io%2Flegacy-of-dubai%2F)
@@ -126,6 +126,8 @@ Using the Jigsaw CSS validator, no errors were found in the CSS for the website.
 
 ![Screenshot 2024-01-05 at 17 26 59](https://github.com/mariam138/legacy-of-dubai/assets/150139337/7476a079-b5b4-4aba-bef3-d3f7de08adc4)
 
+### Accessibility Testing
+
 The accesibility of the website was validated using [Wave](wave.webaim.org). One error came up on the deployed site initially,where my message input on the contact form had an empty label. I entered in a label and used the sr-only class in my CSS to visually hide the label but still be present for screenreaders. Upon checking again, no error was seen on the contact form page. No other errors were shown on the other pages of the website.
 
 ### Lighthouse
@@ -137,6 +139,105 @@ I used Lighthouse on Chrome's DevTools to test the website's performance on both
 
 - For the desktop, no issues were raised by the performance test.
 ![Screenshot 2024-01-01 at 21 19 07](https://github.com/mariam138/legacy-of-dubai/assets/150139337/1408e869-9af4-4331-bef1-76df50a30529)
+
+### Manual Testing
+
+Manual testing was done on several devices: 
+- Desktop:
+- Laptop: MacBook Air 13"
+- Tablet: iPad Mini 3
+- Phone: iPhone 13
+- Android: Chrome DevTools
+
+Testing was conducted on the following browsers:
+- Google Chrome
+- Safari
+
+#### Common Features Testing
+
+Each of the common features were tested on every page.
+
+##### Navigation Bar
+| Feature being tested              | Expected Outcome                         | Testing Performed                  | Actual Outcome                                                       | Result |
+| --------------------------------- | ---------------------------------------- | ---------------------------------- | -------------------------------------------------------------------- | ------ |
+| Legacy of Dubai logo              | Reload index.html                        | Click logo                         | Reloads index.htlm                                                   | Pass   |
+| Menu icon (phone and tablet only) | Loads navigation links underneath        | Clicked menu icon                  | Loads navigation links underneath nav bar                            | Pass   |
+| Origins link                      | Open origins.html                        | Click on Origins link in navbar    | Loads origins.html                                                   | Pass   |
+| Origins link:hover                | Text shows underline                     | Hover mouse over origins link      | Underline appears when hovering mouse                                | Pass   |
+| Modern Day link                   | Opens modern-day.html                    | Click link                         | Opens modern-day.html                                                | Pass   |
+| Modern Day link: hover            | Text shows underline                     | Hover mouse over origins link      | Underline appears when hovering mouse                                | Pass   |
+| Contact Us link                   | Opens contact-form.html                  | Click link                         | Opens contact-form.html                                              | Pass   |
+| Contact Us link:hover             | Button changes to blue and black colours | Hover mouse over contact us button | Colours change to blue background and black text when hovering mouse | Pass   |
+
+##### Home Page Hero Image
+
+| Feature being tested                        | Expected Outcome                                       | Testing Performed                                 | Actual Outcome                                          | Result |
+| ------------------------------------------- | ------------------------------------------------------ | ------------------------------------------------- | ------------------------------------------------------- | ------ |
+| Background image                            | Background image loads                                 | Open index.html                                   | Picture loads                                           | Pass   |
+| Background image                            | Image covers screen at all widths                      | Use DevTools to stretch through all screen widths | The image covers the screen at all widths               | Pass   |
+| Hero cover text (mobile phones and tablets) | Text is centred                                        | Loaded index.html                                 | Hero cover text is central on mobile and tablet screens | Pass   |
+| Hero cover text (laptops and desktops)      | Text moves to top right corner to not cover hero image | Open index.html                                   | Hero cover text shows in top-right corner               | Pass   |
+
+##### Footer
+
+| Feature being tested                      | Expected Outcome                            | Testing Performed                     | Actual Outcome                                                | Result |
+| ----------------------------------------- | ------------------------------------------- | ------------------------------------- | ------------------------------------------------------------- | ------ |
+| Facebook icon                             | Opens facebook.com in new tab               | Click link                            | Facebook.com opens in new tab                                 | Pass   |
+| X icon                                    | Opens x.com in new tab                      | Click link                            | Twitter.com opens in new tab                                  | Pass   |
+| Instagram icon                            | Opens instagram.com in new tab              | Click link                            | Instagram.com opens in new tab                                | Pass   |
+| Social media icons (laptops and desktops) | Shows underline when mouse hovers over them | Hover mouse over each individual link | All links show with underline when mouse is hovered over them | Pass   |
+
+#### Page-specific Features Testing
+
+Each page then had its own manual testing for the page-specific features.
+
+##### Origins Page
+
+| Feature being tested                                   | Expected Outcome                                       | Testing Performed     | Actual Outcome                                                | Result |
+| ------------------------------------------------------ | ------------------------------------------------------ | --------------------- | ------------------------------------------------------------- | ------ |
+| Images                                                 | All images load                                        | Click on origins.html | All pictures load on page                                     | Pass   |
+| Images                                                 | Images change width depending on screen size           | DevTools              | All images are responsive on all screen sizes                 | Pass   |
+| Trucial States Flag image (tablets and laptop screens) | Image moves to left of screen and text wraps around it | Load origins.html     | Flag image is aligned left on screen and text wraps around it | Pass   |
+
+##### Modern Day Page
+
+| Feature being tested                                  | Expected Outcome                                      | Testing Performed                     | Actual Outcome                                         | Result |
+| ----------------------------------------------------- | ----------------------------------------------------- | ------------------------------------- | ------------------------------------------------------ | ------ |
+| Images                                                | All images load                                       | Open modern-day.html                  | All pictures load                                      | Pass   |
+| Images                                                | Images change width depending on screen size          | DevTools                              | All images are responsive on all screen sizes          | Pass   |
+| Newspaper clipping image (laptop and desktop screens) | Image moves to right of page and text wraps around it | Open modern-day.html                  | Newspaper image aligned right and text wraps around it | Pass   |
+| Youtube video                                         | Youtube video plays when clicked                      | Click on play button on youtube video | Youtube video starts playing                           | Pass   |
+| Youtube video                                         | Embedded video changes size depending on screen size  | DevTools                              | Youtube video is responsive on all screen sizes        | Pass   |
+
+##### Contact Us Page
+
+| Feature being tested                       | Expected Outcome                                        | Testing Performed                               | Actual Outcome                                                                          | Result |
+| ------------------------------------------ | ------------------------------------------------------- | ----------------------------------------------- | --------------------------------------------------------------------------------------- | ------ |
+| Hero image                                 | Image loads                                             | Load contact-form.html                          | Background image is loaded and covers entire screen                                     | Pass   |
+| Hero image                                 | Image covers screen on all devices                      | Use DevTools to check responsiveness            | Image covers screen on all screen sizes                                                 | Pass   |
+| Form                                       | Form will not submit without filling in required fields | Press the submit button without filling in form | Each input shows a message saying that the input is required before submitting the form | Pass   |
+| Form radio buttons                         | Only one radio button can be selected at any time       | Click each radio button                         | Only one radio button is selected at a time when each one is clicked                    | Pass   |
+| Submit button                              | Leads to thank you page                                 | Click submit button after filling out form      | Loads the thank you page                                                                | Pass   |
+| Submit button:hover (laptops and desktops) | Changes colours to a light button scheme                | Hover mouse over submit button                  | Colours change to a light background and dark brown text                                | Pass   |
+| Clear button                               | Clears any filled in information on form                | Press clear button                              | All information is deleted and form is blank                                            | Pass   |
+| Clear button:hover (laptops and desktops)  | Changes colours to a blue background and black text     | Hover mouse over clear button                   | Colours change to blue background and black text                                        | Pass   |
+
+##### Thank You Page
+
+| Feature being tested                     | Expected Outcome                  | Testing Performed            | Actual Outcome                                         | Result |
+| ---------------------------------------- | --------------------------------- | ---------------------------- | ------------------------------------------------------ | ------ |
+| Main text                                | Shows when screen is loaded       | Load thank-you.html          | Text shows when page is loaded                         | Pass   |
+| Home button                              | Loads index.html when clicked     | Click on home button         | Index.html is loaded when button is clicked            | Pass   |
+| Home button:hover (laptops and desktops) | Changes into light scheme colours | Hover mouse over Home button | Colours change to light background and dark brown text | Pass   |
+
+##### 404 Error Page
+
+| Feature being tested                     | Expected Outcome                             | Testing Performed                       | Actual Outcome                                         | Result |
+| ---------------------------------------- | -------------------------------------------- | --------------------------------------- | ------------------------------------------------------ | ------ |
+| 404 page                                 | 404.html loads when incorrect url is entered | Enter in incorrect URL into address bar | Loads 404.html page                                    | Pass   |
+| Main text                                | Shows when screen is loaded                  | Load 404.html page                      | Text shows when page is loaded                         | Pass   |
+| Home button                              | Loads index.html when clicked                | Click on Home button                    | Index.html page loads                                  | Pass   |
+| Home button:hover (laptops and desktops) | Changes into light scheme colours            | Hover over Home button                  | Colours change to light background and dark brown text | Pass   |
 
 ### Bug Fixes
 
