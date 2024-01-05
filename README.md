@@ -32,6 +32,14 @@ I then used [ColorSpace](https://mycolor.space/) to generate a colour scheme usi
 To make sure these colours would be accessible to those who are visually impaired, I used [EightShapes' contrast grid](https://contrast-grid.eightshapes.com/). The brown and beige colours can be used interchangeable along with white and black. However the blue accent colour (Hex code #00B2FF) only passes the contrast test with Black, so for this I have decided to use it only as an accent colour with buttons for example. ![Screenshot 2023-12-21 at 17 13 08](https://github.com/mariam138/legacy-of-dubai/assets/150139337/53c65327-1b95-4206-a170-ce81ec4ba1a2)
 The lighter brown colour (Hex code #AB654C) however does not pass with the other colours, and only recieves a AA pass when used with black. So I decided to not use this colour throughout my project.
 
+### Wireframes
+
+Initially I had made simple wireframe structures using **Balsamiq** for the home page on dekstop and mobile. I have since made some slight changes to the deployed website, mainly with the hero cover text and its positioning.
+
+![An image of the wireframe for phones](assets/wireframes/legacy-of-dubai-phone-wireframe.png)
+
+![An image of the wireframe for desktops](assets/wireframes/legacy-of-dubai-desktop-wireframe.png)
+
 ## Features
 
 ### Common Features
@@ -334,3 +342,5 @@ The information on the history of Dubai has been adapted from several sources.
 - The code to allow images to be responsive but never exceed full width is adapted from [W3Schools](www.w3schools.com/css/css3_images.asp)
 - The code to make the youtube video responsive is adapted from [Avex Designs](www.avexdesigns.com/blog/responsive-youtube-embed)
 - The use of the clamp attribute with the youtube video has been adapted from [Geeks for Geeks](www.geeksforgeeks.org/css-clamp-method)
+  
+  All other code and text was created by myself.
