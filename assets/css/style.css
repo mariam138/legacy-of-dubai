@@ -327,7 +327,6 @@ video-container object,
     text-decoration: underline;
 }
 
-/* Code taken from Code Institute's Love Running project */
 #radio-buttons {
     display: flex;
     justify-content: space-between;

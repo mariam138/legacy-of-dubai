@@ -316,6 +316,8 @@ The information on the history of Dubai has been adapted from several sources.
 - The newspaper image on the *Modern Day* page is from the [Arabian Gulf Digital Archive](https://www.agda.ae/en/folder/50-years-formation-united-arab-emirates)
 - The picture of the first Emirates flight is from [Gulf News](https://gulfnews.com/today-history/october-25-1985-emirates-makes-a-good-start-1.1606067)
 - The video of Dubai's development is from [Knight Frank on Youtube](https://youtu.be/voN9imXg6xM)
+- All icons used are from [Font Awesome](https://fontawesome.com/)
+- Fonts have been imported from [Google Fonts](https://fonts.google.com/)
 
 ### Code
 
@@ -327,4 +329,8 @@ The information on the history of Dubai has been adapted from several sources.
 #### Other Sources
 
 - The template code to insert the favicon is from [W3S Schools](https://www.w3schools.com/html/html_favicon.asp)
-- The code to make the toggle on the mobile navbar accesssible is from [css-tricks](https://css-tricks.com/inclusively-hidden/)
+- The code to make the toggle on the mobile navbar accesssible is adapted from [css-tricks](https://css-tricks.com/inclusively-hidden/)
+- The code to horizontally centre a div element when the position is set to absolute is adapted from [CodeDamn.com](codedamn.com/news/frontend/horizontal-alignment-in-css)
+- The code to allow images to be responsive but never exceed full width is adapted from [W3Schools](www.w3schools.com/css/css3_images.asp)
+- The code to make the youtube video responsive is adapted from [Avex Designs](www.avexdesigns.com/blog/responsive-youtube-embed)
+- The use of the clamp attribute with the youtube video has been adapted from [Geeks for Geeks](www.geeksforgeeks.org/css-clamp-method)
