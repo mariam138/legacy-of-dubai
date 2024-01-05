@@ -298,7 +298,11 @@ Each page then had its own manual testing for the page-specific features.
    
    Instead of copying the url directly into the src attribute tag for the iframe, I copied and pasted the embed tag that youtube itself gives for the video. There may also have been a missing > at the end of my iframe tag which is why the video may not have worked. This solved the issue and the youtube video was able to load.
 
-3. On larger screens, the background picture of the Burj Al Arab on the contact form page would show a gap underneath, rather than covering the full screen. This turned out to be because I had set the height on the image to 700px. To fix this, I changed the height to 100vh instead, and also added the property background-attachment and made it fixed. This is so that when scrolling on larger screens, if the height of the image was less than the screen the gap would not show when scrolling.
+3. On larger screens, the background picture of the Burj Al Arab on the contact form page would show a gap underneath, rather than covering the full screen. This turned out to be because I had set the height on the image to 700px. 
+
+    To fix this, I used the **overflow-x** property to hide the horizontal scroll bar. This helped to get ride of the white space on the screen.
+
+    ![Screenshot 2023-12-23 at 15 33 10](https://github.com/mariam138/legacy-of-dubai/assets/150139337/8eed11cb-78f2-4417-99eb-9907466849c3)
 
 4. For the contact form, I used a **textarea** element for the "Your message" part of the form. I set the width and height using the **cols** and **rows** attributes in the html tag. On larger screens, this was fine. But on smaller screens, such as on mobile screens, the text area would overflow over the actual contact form itself.  By setting the width of the text area to 100%, this allowed it to stay within the contact form divider at all screen sizes.
 
