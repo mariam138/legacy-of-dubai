@@ -98,13 +98,13 @@ Introduction text underneath the hero image helps give a clear understanding abo
 
 The origins page starts off the first half of the journey on the website through Dubai's history. It provides a detailed account of Dubai's history from it's earliest record until the discovery of oil in 1966. The page is split into sections which group specific time periods together.
 
-<!--Insert screenshot here -->
+![Screenshot 2024-01-05 at 21 37 39](https://github.com/mariam138/legacy-of-dubai/assets/150139337/919e8195-8f65-46a9-bfe5-f89c0f83587a)
 
 ### Modern Day Page
 
 The modern day page goes into depth about the development of Dubai after the discovery of oil, right until modern day. A video is embedded which is a 5 minute visual summary of the development of Dubai, dating when all the landmarks and areas of Dubai were built and developed.
 
-<!--Insert screenshot here-->
+![Screenshot 2024-01-05 at 21 38 24](https://github.com/mariam138/legacy-of-dubai/assets/150139337/6198df35-445c-4a53-8449-02e375feff04)
 
 ### Contact Form Page
 
