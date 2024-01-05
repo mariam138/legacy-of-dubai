@@ -126,7 +126,7 @@ Using the Jigsaw CSS validator, no errors were found in the CSS for the website.
 
 ![Screenshot 2024-01-05 at 17 26 59](https://github.com/mariam138/legacy-of-dubai/assets/150139337/7476a079-b5b4-4aba-bef3-d3f7de08adc4)
 
-
+The accesibility of the website was validated using [Wave](wave.webaim.org). One error came up on the deployed site initially,where my message input on the contact form had an empty label. I entered in a label and used the sr-only class in my CSS to visually hide the label but still be present for screenreaders. Upon checking again, no error was seen on the contact form page. No other errors were shown on the other pages of the website.
 
 ### Lighthouse
 
