@@ -22,17 +22,23 @@
 ### Typography
 
 The header fonts have been set to **Montserrat** for a clean but slightly regal look. As it is a part of the sans serif family, it also allows accessibility for those with visual impairments. I used [fontjoy.com](fontjoy.com) to help pair a similar font to **Montserrat** to be used for the body of the text. The font that was generated was **Mukta**, keeping the theme cohesive, but allowing the pages to still be clean and readable.
+
 ![Screenshot 2023-12-19 at 21 53 19](https://github.com/mariam138/legacy-of-dubai/assets/150139337/16e55cef-8427-4a0b-b133-d1b277a4bd44)
 
 ### Colour Scheme
 
 I wanted the colour scheme of the website to reflect the colours of the desert, as it is what I most commonly associate Dubai and the Middle East with. I first went onto use [Adobe's colour generator](https://color.adobe.com/explore) and searched for colour schemes based on the search term "Dubai". I found a colour scheme generated from a picture of the Dubai skyline at sunset with the desert in the foreground. From there, I chose the chocolate brown colour (Hex code: #73351F) to be the main colour.
+
 ![Screenshot 2023-12-21 at 16 49 16](https://github.com/mariam138/legacy-of-dubai/assets/150139337/d1bcd012-fdfe-4c1b-8507-94d6a0c7449b)
 
 I then used [ColorSpace](https://mycolor.space/) to generate a colour scheme using the chocolate brown colour as the main colour. I decided upon this colour scheme which includes a lighter brown colour, a beige-cream colour and a blue as an accent colour.
+
 ![Screenshot 2023-12-21 at 17 06 37](https://github.com/mariam138/legacy-of-dubai/assets/150139337/c274b7a4-580a-4fc4-8c90-871ccd10eada)
 
-To make sure these colours would be accessible to those who are visually impaired, I used [EightShapes' contrast grid](https://contrast-grid.eightshapes.com/). The brown and beige colours can be used interchangeable along with white and black. However the blue accent colour (Hex code #00B2FF) only passes the contrast test with Black, so for this I have decided to use it only as an accent colour with buttons for example. ![Screenshot 2023-12-21 at 17 13 08](https://github.com/mariam138/legacy-of-dubai/assets/150139337/53c65327-1b95-4206-a170-ce81ec4ba1a2)
+To make sure these colours would be accessible to those who are visually impaired, I used [EightShapes' contrast grid](https://contrast-grid.eightshapes.com/). The brown and beige colours can be used interchangeable along with white and black. However the blue accent colour (Hex code #00B2FF) only passes the contrast test with Black, so for this I have decided to use it only as an accent colour with buttons for example. 
+
+![Screenshot 2023-12-21 at 17 13 08](https://github.com/mariam138/legacy-of-dubai/assets/150139337/53c65327-1b95-4206-a170-ce81ec4ba1a2)
+
 The lighter brown colour (Hex code #AB654C) however does not pass with the other colours, and only recieves a AA pass when used with black. So I decided to not use this colour throughout my project.
 
 ### Wireframes
@@ -161,15 +167,17 @@ The accesibility of the website was validated using [Wave](wave.webaim.org). One
 I used Lighthouse on Chrome's DevTools to test the website's performance on both Mobile and Desktop.
 
 - The initial report for mobile gave a performance score of 62 which was due to the size of the front page's hero image. After reducing the image size and optimising it for mobile, I ran the report again. No issues were raised after this change.
+  
 ![Screenshot 2024-01-02 at 12 08 58](https://github.com/mariam138/legacy-of-dubai/assets/150139337/cc1bcad3-799e-4b9a-903a-705dd62bf59a)
 
 - For the desktop, no issues were raised by the performance test.
+  
 ![Screenshot 2024-01-01 at 21 19 07](https://github.com/mariam138/legacy-of-dubai/assets/150139337/1408e869-9af4-4331-bef1-76df50a30529)
 
 ### Manual Testing
 
 Manual testing was done on several devices: 
-- Desktop:
+- Desktop: 1600 x 900
 - Laptop: MacBook Air 13"
 - Tablet: iPad Mini 3
 - Phone: iPhone 13
@@ -270,25 +278,29 @@ Each page then had its own manual testing for the page-specific features.
 1. Upon initial deployment onto github pages, none of the CSS styling appeared to be showing, despite showing on thge local server. When checking the code for the link to the CSS style sheet in the HTML index page, the file paths appeared to start with a forward slash (/), making them absolute file paths rather than relative file paths. Removing the forward slash fixed the problem, allowing the CSS  styling to show on the deployed webpage.
 
 2. After styling the hero image for the home screen, I checked to see whether it was responsive for all screen sizes. Viewing the home page on my laptop screen showed there to be some whitespace on the right of the page, leading to a horizontal scroll bar. This would lead to a bad user experience.
+3. 
 ![Screenshot 2023-12-23 at 15 03 51](https://github.com/mariam138/legacy-of-dubai/assets/150139337/d3d65a43-5d60-4c2e-8000-22db718f0d68)
 
     To fix this, I used the **overflow-x** property to hide the horizontal scroll bar. This helped to get ride of the white space on the screen.
+    
     ![Screenshot 2023-12-23 at 15 33 10](https://github.com/mariam138/legacy-of-dubai/assets/150139337/8eed11cb-78f2-4417-99eb-9907466849c3)
 
-3. When inserting images into the main content, I tried to use the picture tag so that I could use media queries to have different resolutions of the same picture show at different screen sizes. But when checking on both Dev tools and on the deployed website, this didn't seem to work, and would only show the smallest resolution image.
+1. When inserting images into the main content, I tried to use the picture tag so that I could use media queries to have different resolutions of the same picture show at different screen sizes. But when checking on both Dev tools and on the deployed website, this didn't seem to work, and would only show the smallest resolution image.
 
     ![Screenshot 2023-12-31 at 10 47 15](https://github.com/mariam138/legacy-of-dubai/assets/150139337/23dc6260-d745-47dc-b849-ed8d2093a7c2)
     ![Screenshot 2023-12-31 at 10 47 34](https://github.com/mariam138/legacy-of-dubai/assets/150139337/f650153e-0f00-4e41-a8cd-21002b54d9e0)
 
-    I tried running the code through the W3C HTML validator to check for any errors, in which it didn't bring up any. Googling for an answer also came to no avail. I used the tutor service to see if they could help with my code as a final resort. The tutor checked my media queries using a different image which seemed to work, but would not work on the images I wanted to use. Unfortunately, the tutor could also not figure out the problem. So I had to resort back to using the img tag instead and using the media queries in my CSS stylesheet.
+    I tried running the code through the W3C HTML validator to check for any errors, in which it didn't bring up any. Googling for an answer also came to no avail. I used the tutor service to see if they could help with my code as a final resort. The tutor checked my media queries using a different image which seemed to work, but would not work on the images I wanted to use. In the end I had to resort back to using the img tag instead and using the media queries in my CSS stylesheet.
 
-4. When embedding a youtube video into the post-oil.html page, the youtube video would not load and a broken link would show.
+2. When embedding a youtube video into the post-oil.html page, the youtube video would not load and a broken link would show.
+   
    ![Screenshot 2023-12-31 at 12 51 27](https://github.com/mariam138/legacy-of-dubai/assets/150139337/99c42be7-b44a-4000-bafc-20ff96d67471)
+   
    Instead of copying the url directly into the src attribute tag for the iframe, I copied and pasted the embed tag that youtube itself gives for the video. There may also have been a missing > at the end of my iframe tag which is why the video may not have worked. This solved the issue and the youtube video was able to load.
 
-5. On larger screens, the background picture of the Burj Al Arab on the contact form page would show a gap underneath, rather than covering the full screen. This turned out to be because I had set the height on the image to 700px. To fix this, I changed the height to 100vh instead, and also added the property background-attachment and made it fixed. This is so that when scrolling on larger screens, if the height of the image was less than the screen the gap would not show when scrolling.
+3. On larger screens, the background picture of the Burj Al Arab on the contact form page would show a gap underneath, rather than covering the full screen. This turned out to be because I had set the height on the image to 700px. To fix this, I changed the height to 100vh instead, and also added the property background-attachment and made it fixed. This is so that when scrolling on larger screens, if the height of the image was less than the screen the gap would not show when scrolling.
 
-6. For the contact form, I used a **textarea** element for the "Your message" part of the form. I set the width and height using the **cols** and **rows** attributes in the html tag. On larger screens, this was fine. But on smaller screens, such as on mobile screens, the text area would overflow over the actual contact form itself.  By setting the width of the text area to 100%, this allowed it to stay within the contact form divider at all screen sizes.
+4. For the contact form, I used a **textarea** element for the "Your message" part of the form. I set the width and height using the **cols** and **rows** attributes in the html tag. On larger screens, this was fine. But on smaller screens, such as on mobile screens, the text area would overflow over the actual contact form itself.  By setting the width of the text area to 100%, this allowed it to stay within the contact form divider at all screen sizes.
 
     ![Screenshot 2023-12-31 at 19 04 55](https://github.com/mariam138/legacy-of-dubai/assets/150139337/4a78bf24-7fdd-4c54-af14-f43b51cc383d)
 
