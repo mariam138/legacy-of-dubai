@@ -122,7 +122,7 @@ main {
 
 /* Hero image styling */
 #dubai-hero-image {
-    background: url("../images/dubai-hero-1024w.webp") #ffe7d6 no-repeat center center / cover;
+    background: url("../images/dubai-hero-768w.webp") #ffe7d6 no-repeat center center / cover;
     width: 100%;
     height: 700px;
     position: relative;
@@ -475,6 +475,11 @@ footer>p {
     /* To push down content so that the larger header on larger screens does not cover the main content */
     main {
         margin-top: 57px;
+    }
+
+    /* Use larger image on tablet screens so the picture fills the full screen */
+    #dubai-hero-image {
+        background-image: url(../images/dubai-hero-1024w.webp);
     }
 
     /* Make the hero cover image text responsive */
