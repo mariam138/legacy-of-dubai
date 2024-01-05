@@ -42,24 +42,23 @@ The first common feature of the website is the navigation bar. The navigation ba
 
 On mobile phones, a menu icon is placed on the right hand side, and when clicked upon, a drop down menu appears underneath with the links showing in a column.
 
-![Screenshot 2023-12-25 at 18 04 45](https://github.com/mariam138/legacy-of-dubai/assets/150139337/79364e15-c74c-4932-8393-0a8254835902)
-![Screenshot 2023-12-25 at 18 05 02](https://github.com/mariam138/legacy-of-dubai/assets/150139337/3180a10a-7342-4c95-b3a2-01add7b4f95a)
+![Screenshot 2024-01-05 at 18 31 57](https://github.com/mariam138/legacy-of-dubai/assets/150139337/bd815ff0-2c5b-42bb-8ab2-09bf942f0217)
+![Screenshot 2024-01-05 at 18 32 10](https://github.com/mariam138/legacy-of-dubai/assets/150139337/72fcada9-6231-46d5-a3b6-ed53140918a5)
+
 
 On larger screens, the menu icon is gotten rid of in favour of having the links display in a row on the right hand side of the header.
 
-![Screenshot 2023-12-25 at 18 30 01](https://github.com/mariam138/legacy-of-dubai/assets/150139337/3f7a81da-138a-46ba-ab86-9275f2e98dae)
+![Screenshot 2024-01-05 at 18 33 02](https://github.com/mariam138/legacy-of-dubai/assets/150139337/a945b780-a7b3-4035-a484-71ff5f26f68f)
 
 The **Contact Us** link has been styled as a button on all screen sizes to indicate that this page does not follow the flow of the main content.
 
 The navigation links are underlined as a visual clue to the user to highlight which page they are currently on.
 
-![Screenshot 2023-12-25 at 18 37 12](https://github.com/mariam138/legacy-of-dubai/assets/150139337/fa65326b-3cb5-4734-960c-a142f11130d2)
+![Screenshot 2024-01-05 at 18 33 34](https://github.com/mariam138/legacy-of-dubai/assets/150139337/a6df60dd-0769-47c0-9ecc-01cb479e9c7b)
 
 On laptop screens and larger, the **Page 1 and Page 2** links show an underline when theyuser hovers on them to indicate that they are cliackable. For the **Contact Us** button, the button changes into a blue colour with black text when hovered upon, again to show it is clickable, but also that it will lead to a page which is not part of the main content.
 
-![Screenshot 2023-12-25 at 18 43 25](https://github.com/mariam138/legacy-of-dubai/assets/150139337/c5f5a36f-0ee6-40c9-9b74-f87faa4eae59)
-
-![Screenshot 2023-12-25 at 18 41 16](https://github.com/mariam138/legacy-of-dubai/assets/150139337/72ee1c25-cab4-4bec-aac3-9eccb3237813)
+![Screenshot 2024-01-05 at 18 35 07](https://github.com/mariam138/legacy-of-dubai/assets/150139337/67170b4e-21e9-424a-b01c-e21fdd7e1fd9)
 
 #### Footer
 
@@ -77,13 +76,27 @@ On laptop and desktop screens, hovering over the links will produce an underline
 
 The home page has a hero image of the Burj Khalifa at night time, one  of Dubai's most famous landmarks and also the tallest building in the world. I wanted to use this as the main hero image due to its recognisability and association with Dubai.
 
-![Screenshot 2023-12-25 at 20 21 08](https://github.com/mariam138/legacy-of-dubai/assets/150139337/f0c49481-d894-411a-96ae-9d040e006ac0)
+![Screenshot 2024-01-05 at 18 36 28](https://github.com/mariam138/legacy-of-dubai/assets/150139337/384b9837-9f02-4f06-ab1f-dfdfbab803c0)
 
-There is also overlay text which reinforces the website's name, and also provides a tagline of "From Sands to Skyscrapers". The same tagline is in the website's title, so that it shows in the tab on the web browser. This tagline summarises the history of Dubai but adds some drama. <!--reword this please).--> The overlay text is centered on mobile phones, but on larger screens it is placed in the top-right corner as to not cover the background image of the Burj Khalifa.
+There is also overlay text which reinforces the website's name, and also provides a tagline of *"From Sands to Skyscrapers"*. The same tagline is in the website's title, so that it shows in the tab on the web browser. This tagline summarises the history of Dubai but adds some drama. <!--reword this please).--> The overlay text is centered on mobile phones, but on larger screens it is placed in the top-right corner as to not cover the background image of the Burj Khalifa.
 
-![Screenshot 2023-12-25 at 20 18 54](https://github.com/mariam138/legacy-of-dubai/assets/150139337/70507472-5b44-4e53-8a63-d680a2e97eb7)
+![Screenshot 2024-01-05 at 18 37 23](https://github.com/mariam138/legacy-of-dubai/assets/150139337/7beeeb3a-c3eb-418f-a744-a7c50e7d63cd)
 
-<!-- Add section here about the introduction text underneath once it's been made responsive and been re-written.-->
+Introduction text underneath the hero image helps give a clear understanding about what the site is about.
+
+![Screenshot 2024-01-05 at 18 45 18](https://github.com/mariam138/legacy-of-dubai/assets/150139337/67b6580c-6e12-40d3-8a43-b5300fa95144)
+
+### Origins Page 
+
+The origins page starts off the first half of the journey on the website through Dubai's history. It provides a detailed account of Dubai's history from it's earliest record until the discovery of oil in 1966. The page is split into sections which group specific time periods together.
+
+<!--Insert screenshot here -->
+
+### Modern Day Page
+
+The modern day page goes into depth about the development of Dubai after the discovery of oil, right until modern day. A video is embedded which is a 5 minute visual summary of the development of Dubai, dating when all the landmarks and areas of Dubai were built and developed.
+
+<!--Insert screenshot here-->
 
 ### Contact Form Page
 
@@ -91,16 +104,18 @@ The contact form page has a different hero image this time, one of the Burj al A
 
 The contact form has been placed over the image but given some transparency to allow the picture of the Burj al Arab to still show through behind.
 
-The contact form allows the user to contact the author <!--?--> about any questions they may have about the information on the website. The contact form requires both a First and Last name, an e-mail address and a message. There is an optional radio button section which allows the user to enter whether they have visited Dubai before or not.
+The contact form allows the user to send any questions/queries they might have, or simply just some feedback to improve the site. The contact form requires both a First and Last name, an e-mail address and a message. There is an optional radio button section which allows the user to enter whether they have visited Dubai before or not.
 
 ![Screenshot 2023-12-25 at 20 29 11](https://github.com/mariam138/legacy-of-dubai/assets/150139337/3504b4df-8913-41bf-8f9c-170993243706)
 
 ### Hidden Pages
 
-There are two hidden pages on the website. The first is a thank you page, which loads after submitting a form.
+There are two hidden pages on the website. The first is a thank you page, which loads after submitting the form.
+
 ![Screenshot 2024-01-02 at 11 58 35](https://github.com/mariam138/legacy-of-dubai/assets/150139337/70a78248-c0b0-4b8a-9bda-a444c7f0cbba)
 
 The second page is a 404 page. I have styled my own 404 page rather than rely on the one provided by GitHub. This page will load if an incorrect address is typed into the address bar.
+
 ![Screenshot 2024-01-02 at 12 00 46](https://github.com/mariam138/legacy-of-dubai/assets/150139337/72593752-a9af-4019-b0a6-6d30f9a3e5b4)
 
 ### Future Features
@@ -269,11 +284,11 @@ By setting the width of the text area to 100%, this allowed it to stay within th
 ## Deployment
 
 The site was deployed onto GitHub pages near the start of the project. The steps to deploy are as follows:
-    1. On the repository page for the project on GitHub, click on **Settings**
-    2. On the left hand side of the pape, click the **Pages** link
-    3. Under the **Branch** sub-heading, select **main** as the branch and click save
-    4. Once selected, navigate back to the **Code** tab at the top
-    5. Wait for a few minutes before refreshing the page to view the deployed site
+ 1. On the repository page for the project on GitHub, click on **Settings**
+ 2. On the left hand side of the pape, click the **Pages** link
+ 3. Under the **Branch** sub-heading, select **main** as the branch and click save
+ 4. Once selected, navigate back to the **Code** tab at the top
+ 5. Wait for a few minutes before refreshing the page to view the deployed site
 
 ## Credits
 
@@ -292,8 +307,8 @@ The site was deployed onto GitHub pages near the start of the project. The steps
 
 #### Code Institute
 
-- The code to create a sticky header and push the footer to the bottom is from the [Code Institute Love Running project](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LRFX101+2023_Q2/courseware/e805068059af42af87681032aa64053f/7525117e5cd144daa2a7b0c57843bbee/)
-- The code to create the dropdown toggle for mobile navigation is from the [Code Institute Love Running project](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LRFX101+2023_Q2/courseware/e805068059af42af87681032aa64053f/7525117e5cd144daa2a7b0c57843bbee/)
+- The code to create a sticky header and push the footer to the bottom has been adapated from the [Love Running project](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LRFX101+2023_Q2/courseware/e805068059af42af87681032aa64053f/7525117e5cd144daa2a7b0c57843bbee/)
+- The code to create the dropdown toggle for mobile navigation has been adapted from the [Love Running project](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LRFX101+2023_Q2/courseware/e805068059af42af87681032aa64053f/7525117e5cd144daa2a7b0c57843bbee/)
 
 #### Other Sources
 
