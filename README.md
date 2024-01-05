@@ -277,9 +277,9 @@ Each page then had its own manual testing for the page-specific features.
 
 5. On larger screens, the background picture of the Burj Al Arab on the contact form page would show a gap underneath, rather than covering the full screen. This turned out to be because I had set the height on the image to 700px. To fix this, I changed the height to 100vh instead, and also added the property background-attachment and made it fixed. This is so that when scrolling on larger screens, if the height of the image was less than the screen the gap would not show when scrolling.
 
-6. For the contact form, I used a **textarea** element for the "Your message" part of the form. I set the width and height using the **cols** and **rows** attributes in the html tag. On larger screens, this was fine. But on smaller screens, such as on mobile screens, the text area would overflow over the actual contact form itself.
-![Screenshot 2023-12-31 at 19 04 55](https://github.com/mariam138/legacy-of-dubai/assets/150139337/4a78bf24-7fdd-4c54-af14-f43b51cc383d)
-By setting the width of the text area to 100%, this allowed it to stay within the contact form divider at all screen sizes.
+6. For the contact form, I used a **textarea** element for the "Your message" part of the form. I set the width and height using the **cols** and **rows** attributes in the html tag. On larger screens, this was fine. But on smaller screens, such as on mobile screens, the text area would overflow over the actual contact form itself.  By setting the width of the text area to 100%, this allowed it to stay within the contact form divider at all screen sizes.
+
+    ![Screenshot 2023-12-31 at 19 04 55](https://github.com/mariam138/legacy-of-dubai/assets/150139337/4a78bf24-7fdd-4c54-af14-f43b51cc383d)
 
 ## Deployment
 
@@ -292,7 +292,21 @@ The site was deployed onto GitHub pages near the start of the project. The steps
 
 ## Credits
 
-### Content
+### Content 
+
+The information on the history of Dubai has been adapted from several sources.
+
+#### Websites:
+- [Visit Dubai](https://www.visitdubai.com/en/articles/history-of-dubai)
+- [Britannica](https://www.britannica.com/place/Dubai-emirate-United-Arab-Emirates)
+- [Amazing Dubai](https://www.amazing-dubai.com/history-of-dubai.html)
+- [Dubai.com](https://www.dubai.com/v/history/)
+
+#### Books
+
+- **Keepers of the Golden Shore: A History of the United Arab Emirates** by *Michael Quentin Morton* (2016)
+
+### Media
 
 - The Burj Al Arab favicon is by [Icons8](<https://icons8.com/icon/RnOkEfOBUH9P/burj-al-arab>)
 - The Burj Khalifa and Burj al Arab hero images are from [pxhere](https://pxhere.com/)
